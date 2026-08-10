@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "title": "Potential Energy Gained by a Car",
+    "question": "How much gravitational potential energy does a car gain if a crane lifts the car (1,500 kg) 20 m straight up?",
+    "template": [
+      "PE = m×g×h = __ × __ × __",
+      "PE = __ J"
+    ],
+    "answers": [
+      { "blankIndex": 0, "value": "1500" },
+      { "blankIndex": 1, "value": "9.8" },
+      { "blankIndex": 2, "value": "20" },
+      { "blankIndex": 3, "value": "294000" }
+    ],
+    "choices": ["1500", "9.8", "20", "294000", "1500", "20"],
+    "commutative": true
+  },
+  {
+    "id": 2,
+    "title": "Potential Energy Lost by a Falling Basketball",
+    "question": "A basketball of mass 0.0400 kg is dropped from 5.00 m. How much potential energy does it lose?",
+    "template": [
+      "PE = m×g×h = __ × __ × __",
+      "PE = __ J"
+    ],
+    "answers": [
+      { "blankIndex": 0, "value": "0.0400" },
+      { "blankIndex": 1, "value": "9.8" },
+      { "blankIndex": 2, "value": "5.00" },
+      { "blankIndex": 3, "value": "1.96" }
+    ],
+    "choices": ["0.0400", "9.8", "5.00", "1.96", "0.0400"],
+    "commutative": true
+  },
+  {
+    "id": 3,
+    "title": "Potential Energy Regained by a Bouncing Basketball",
+    "question": "A basketball (0.0400 kg) bounces back to a height of 3.00 m. How much potential energy does it regain?",
+    "template": [
+      "PE = m×g×h = __ × __ × __",
+      "PE = __ J"
+    ],
+    "answers": [
+      { "blankIndex": 0, "value": "0.0400" },
+      { "blankIndex": 1, "value": "9.8" },
+      { "blankIndex": 2, "value": "3.00" },
+      { "blankIndex": 3, "value": "1.18" }
+    ],
+    "choices": ["0.0400", "9.8", "3.00", "1.18", "0.0400"],
+    "commutative": true
+  }
+]

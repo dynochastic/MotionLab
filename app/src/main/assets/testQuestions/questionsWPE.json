@@ -1,0 +1,317 @@
+[
+  {
+    "id": 1,
+    "lessonId": 3,
+    "question": "A force of 10 N moves an object 5 meters in the same direction. What is the work done?",
+    "choices": ["20 J", "30 J", "40 J", "50 J"],
+    "answer": "50 J"
+  },
+  {
+    "id": 2,
+    "lessonId": 3,
+    "question": "A man pushes a cart with 25 N of force across 3 meters. How much work is done?",
+    "choices": ["75 J", "85 J", "65 J", "95 J"],
+    "answer": "75 J"
+  },
+  {
+    "id": 3,
+    "lessonId": 3,
+    "question": "A box is lifted with a force of 100 N to a height of 2 meters. How much work is done?",
+    "choices": ["100 J", "150 J", "200 J", "250 J"],
+    "answer": "200 J"
+  },
+  {
+    "id": 4,
+    "lessonId": 3,
+    "question": "A child pushes a toy with 12 N of force for 4 meters. How much work is done?",
+    "choices": ["36 J", "48 J", "60 J", "52 J"],
+    "answer": "48 J"
+  },
+  {
+    "id": 5,
+    "lessonId": 3,
+    "question": "A person applies a force of 60 N, but the object does not move. What is the work done?",
+    "choices": ["60 J", "0 J", "10 J", "600 J"],
+    "answer": "0 J"
+  },
+  {
+    "id": 6,
+    "lessonId": 3,
+    "question": "A student lifts a book weighing 15 N to a height of 2 meters. What is the work done?",
+    "choices": ["25 J", "30 J", "35 J", "40 J"],
+    "answer": "30 J"
+  },
+  {
+    "id": 7,
+    "lessonId": 3,
+    "question": "A car engine applies a 200 N force to move the car 15 meters forward. How much work is done?",
+    "choices": ["3,000 J", "2,500 J", "3,500 J", "2,000 J"],
+    "answer": "3,000 J"
+  },
+  {
+    "id": 8,
+    "lessonId": 3,
+    "question": "A person pushes a wheelbarrow with 20 N of force for 7 meters. How much work is done?",
+    "choices": ["120 J", "140 J", "160 J", "180 J"],
+    "answer": "140 J"
+  },
+  {
+    "id": 9,
+    "lessonId": 3,
+    "question": "A boy pulls a box with a force of 30 N for 9 meters in the same direction. What is the work done?",
+    "choices": ["270 J", "260 J", "290 J", "300 J"],
+    "answer": "270 J"
+  },
+  {
+    "id": 10,
+    "lessonId": 3,
+    "question": "A person applies a 45 N force to move an object 0 meters. How much work is done?",
+    "choices": ["0 J", "45 J", "90 J", "100 J"],
+    "answer": "0 J"
+  },
+  {
+    "id": 11,
+    "lessonId": 3,
+    "question": "What is the unit of work in the SI (International System of Units)?",
+    "choices": ["Newton", "Watt", "Joule", "Meter"],
+    "answer": "Joule"
+  },
+  {
+    "id": 12,
+    "lessonId": 3,
+    "question": "Which quantity must be present along with force for work to be done?",
+    "choices": ["Power", "Acceleration", "Distance", "Time"],
+    "answer": "Distance"
+  },
+  {
+    "id": 13,
+    "lessonId": 3,
+    "question": "What kind of quantity is work in terms of direction?",
+    "choices": ["Scalar", "Vector", "Constant", "Periodic"],
+    "answer": "Scalar"
+  },
+  {
+    "id": 14,
+    "lessonId": 3,
+    "question": "Which of the following best describes “work” in Physics?",
+    "choices": ["Any physical activity", "A force that changes direction", "A force that moves an object over a distance", "An object that speeds up"],
+    "answer": "A force that moves an object over a distance"
+  },
+  {
+    "id": 15,
+    "lessonId": 3,
+    "question": "What is the formula used to calculate work?",
+    "choices": ["W = m × a", "W = F × d", "W = F × t", "W = d ÷ t"],
+    "answer": "W = F × d"
+  },
+  {
+    "id": 16,
+    "lessonId": 3,
+    "question": "A machine does 600 J of work in 10 seconds. What is the power?",
+    "choices": ["50 W", "60 W", "70 W", "80 W"],
+    "answer": "60 W"
+  },
+  {
+    "id": 17,
+    "lessonId": 3,
+    "question": "A student lifts a 200 N box 2 meters high in 4 seconds. What is the power?",
+    "choices": ["80 W", "100 W", "120 W", "150 W"],
+    "answer": "100 W"
+  },
+  {
+    "id": 18,
+    "lessonId": 3,
+    "question": "A crane does 900 J of work in 9 seconds. What is the power?",
+    "choices": ["90 W", "80 W", "100 W", "110 W"],
+    "answer": "100 W"
+  },
+  {
+    "id": 19,
+    "lessonId": 3,
+    "question": "A weightlifter lifts a 500 N weight 1 meter high in 2 seconds. What is the power?",
+    "choices": ["100 W", "200 W", "250 W", "300 W"],
+    "answer": "250 W"
+  },
+  {
+    "id": 20,
+    "lessonId": 3,
+    "question": "A boy pulls a wagon with 30 N of force for 10 meters in 5 seconds. What is the power?",
+    "choices": ["50 W", "60 W", "70 W", "80 W"],
+    "answer": "60 W"
+  },
+  {
+    "id": 21,
+    "lessonId": 3,
+    "question": "What is the SI unit of power?",
+    "choices": ["Joule", "Newton", "Watt", "Pascal"],
+    "answer": "Watt"
+  },
+  {
+    "id": 22,
+    "lessonId": 3,
+    "question": "What quantity is described as the rate at which work is done?",
+    "choices": ["Energy", "Speed", "Force", "Power"],
+    "answer": "Power"
+  },
+  {
+    "id": 23,
+    "lessonId": 3,
+    "question": "What is the formula for power?",
+    "choices": ["P = F × d", "P = W / t", "P = m × a", "P = d / t"],
+    "answer": "P = W / t"
+  },
+  {
+    "id": 24,
+    "lessonId": 3,
+    "question": "If no work is done, what is the power?",
+    "choices": ["1 W", "10 W", "100 W", "0 W"],
+    "answer": "0 W"
+  },
+  {
+    "id": 25,
+    "lessonId": 3,
+    "question": "Which of the following affects power?",
+    "choices": ["Distance only", "Time only", "Work and time", "Speed only"],
+    "answer": "Work and time"
+  },
+  {
+    "id": 26,
+    "lessonId": 3,
+    "question": "What is the unit 'Joule per second' equal to?",
+    "choices": ["Newton", "Watt", "Pascal", "Meter per second"],
+    "answer": "Watt"
+  },
+  {
+    "id": 27,
+    "lessonId": 3,
+    "question": "Which factor increases power output?",
+    "choices": ["Longer time", "Less force", "More work in less time", "Stopping movement"],
+    "answer": "More work in less time"
+  },
+  {
+    "id": 28,
+    "lessonId": 3,
+    "question": "What is the power if 600 J of work is done in 3 seconds?",
+    "choices": ["200 W", "180 W", "300 W", "100 W"],
+    "answer": "200 W"
+  },
+  {
+    "id": 29,
+    "lessonId": 3,
+    "question": "Which of the following is NOT a unit of power?",
+    "choices": ["Watt", "Kilowatt", "Joule", "Horsepower"],
+    "answer": "Joule"
+  },
+  {
+    "id": 30,
+    "lessonId": 3,
+    "question": "A motor does 1000 J of work in 20 seconds. What is its power output?",
+    "choices": ["40 W", "50 W", "60 W", "70 W"],
+    "answer": "50 W"
+  },
+  {
+    "id": 31,
+    "lessonId": 3,
+    "question": "What is the formula for gravitational potential energy?",
+    "choices": ["KE = ½mv²", "PE = mgh", "PE = mgv", "W = Fd"],
+    "answer": "PE = mgh"
+  },
+  {
+    "id": 32,
+    "lessonId": 3,
+    "question": "What does gravitational potential energy depend on?",
+    "choices": ["Mass and volume", "Mass and height", "Speed and time", "Distance and force"],
+    "answer": "Mass and height"
+  },
+  {
+    "id": 33,
+    "lessonId": 3,
+    "question": "A 1.5 kg book is lifted to a shelf 2.0 meters high. How much potential energy is stored?",
+    "choices": ["1.5 J", "3.0 J", "29.4 J", "19.6 J"],
+    "answer": "29.4 J"
+  },
+  {
+    "id": 34,
+    "lessonId": 3,
+    "question": "What is the potential energy of a 1500 kg car lifted 20 m by a crane?",
+    "choices": ["300,000 J", "29,400 J", "294,000 J", "2,940 J"],
+    "answer": "294,000 J"
+  },
+  {
+    "id": 35,
+    "lessonId": 3,
+    "question": "What kind of energy does a moving hammer have?",
+    "choices": ["Radiant energy", "Chemical energy", "Kinetic energy", "Potential energy"],
+    "answer": "Kinetic energy"
+  },
+  {
+    "id": 36,
+    "lessonId": 3,
+    "question": "A basketball (0.0400 kg) drops from 5.00 m. What PE is lost?",
+    "choices": ["1.96 J", "2.50 J", "3.00 J", "4.00 J"],
+    "answer": "1.96 J"
+  },
+  {
+    "id": 37,
+    "lessonId": 3,
+    "question": "The ball bounces back to 3.00 m. What PE is regained?",
+    "choices": ["0.40 J", "1.18 J", "1.96 J", "3.00 J"],
+    "answer": "1.18 J"
+  },
+  {
+    "id": 38,
+    "lessonId": 3,
+    "question": "Which is an example of radiant energy?",
+    "choices": ["Hammer hitting a nail", "Rock falling", "Sunlight absorbed by a photocell", "Ball rolling down a hill"],
+    "answer": "Sunlight absorbed by a photocell"
+  },
+  {
+    "id": 39,
+    "lessonId": 3,
+    "question": "What type of energy is stored in a stick of dynamite?",
+    "choices": ["Radiant", "Chemical", "Electrical", "Kinetic"],
+    "answer": "Chemical"
+  },
+  {
+    "id": 40,
+    "lessonId": 3,
+    "question": "What is the PE of a 60 kg circus man on a 20 m platform?",
+    "choices": ["600 J", "9,408 J", "10,584 J", "11,760 J"],
+    "answer": "11,760 J"
+  },
+  {
+    "id": 41,
+    "lessonId": 3,
+    "question": "What is the kinetic energy of a 3 kg object moving at 6 m/s?",
+    "choices": ["9 J", "54 J", "36 J", "18 J"],
+    "answer": "54 J"
+  },
+  {
+    "id": 42,
+    "lessonId": 3,
+    "question": "What happens when the boy falls from the bed?",
+    "choices": ["Gains PE", "Loses PE", "PE becomes KE", "KE becomes PE"],
+    "answer": "PE becomes KE"
+  },
+  {
+    "id": 43,
+    "lessonId": 3,
+    "question": "What does a negative energy value (e.g., –300 J) mean?",
+    "choices": ["Gained energy", "Lost energy", "Object reversed", "Force increased"],
+    "answer": "Lost energy"
+  },
+  {
+    "id": 44,
+    "lessonId": 3,
+    "question": "What is the PE of a 10 kg coconut 25 m above ground?",
+    "choices": ["245 J", "2450 J", "980 J", "4900 J"],
+    "answer": "2450 J"
+  },
+  {
+    "id": 45,
+    "lessonId": 3,
+    "question": "What determines the zero point for PE calculations?",
+    "choices": ["Object’s mass", "Object’s direction", "Chosen reference point", "Speed of object"],
+    "answer": "Chosen reference point"
+  }
+]

@@ -1,0 +1,19 @@
+COLOR BACKUP - Created before UI color changes
+==============================================
+
+Main Background (MainBlueBg): #A8D8FF (Color(0xFFA8D8FF))
+Second Background (SecondBlueBg): #1E91D6 (Color(0xFF1E91D6))
+Lesson Button Background (normal): Color.White
+Lesson Button Background (locked): FrenchBlueDark (#005A9E)
+Lesson Button Text (normal): BackButtonColor (#424242)
+Lesson Button Text (locked/greyed): Color.White
+Lesson Button Shadow Elevation: 8.dp
+
+NEW COLORS TO APPLY:
+====================
+Main Background: #e5eff6
+Second Background: #002340
+Lesson Button: #0d2e4a
+Lesson Button Text: #f4f4f4
+Lesson Button Depth: Increased shadow elevation
+

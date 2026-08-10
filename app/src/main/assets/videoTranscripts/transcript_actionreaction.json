@@ -1,0 +1,52 @@
+[
+  {"type": "text",
+    "content": "What is Newton's Third Law of Motion?",
+    "style" : "HEADING",
+    "align" : "LEFT"
+  },
+  {
+    "type": "text",
+    "content":  "Newton's Third Law of Motion states that every action has an equal and opposite reaction.\n\nWhen one object applies a force, another object pushes back with the same force in the opposite direction. These force pairs explain how motion happens in everyday situations like walking, jumping, or launching a rocket.",
+    "style" : "NORMAL",
+    "align": "JUSTIFY"
+  },
+  {
+    "type": "text",
+    "content": "\nExample:",
+    "style": "BOLD"
+  },
+  {
+    "type": "text",
+    "content": "A bullet with mass 0.01 kg is fired with acceleration 800 m/s². What is the force on the bullet? What is the reaction force on the gun?",
+    "style": "NORMAL"
+  },
+  {
+    "type": "text",
+    "content": "Given:\n\t\tm = 0.01 kg\n\t\ta = 800 m/s²\n\t\tF = ?",
+    "style": "BOLD"
+  },
+  {
+    "type": "text",
+    "content": "Formula:",
+    "style": "BOLD"
+  },
+  {
+    "type": "formula",
+    "latex": "F = m * a"
+  },
+  {
+    "type": "text",
+    "content": "Where:\n\t\tF = Force (Newtons)\n\t\tm = Mass (kg)\n\t\ta = Acceleration (m/s²)",
+    "style": "NORMAL"
+  },
+  {
+    "type": "text",
+    "content": "Plug in the values from the problem into the formula then solve:",
+    "style": "BOLD"
+  },
+  {
+    "type": "text",
+    "content": "\t\tF = 0.01 kg × 800 m/s²\n\t\tF = 8 N\n\t\tReaction force = 8 N (opposite direction)",
+    "style": "NORMAL"
+  }
+]

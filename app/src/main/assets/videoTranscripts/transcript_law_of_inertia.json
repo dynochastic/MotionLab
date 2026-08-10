@@ -1,0 +1,52 @@
+[
+  {"type": "text",
+    "content": "What is Law of Inertia?",
+    "style" : "HEADING",
+    "align" : "LEFT"
+  },
+  {
+    "type": "text",
+    "content":  "An object at rest stays at rest, and an object in motion stays in motion at constant velocity, unless acted upon by an unbalanced force.\n\nWhen there is no net force, an object will remain at rest if it is not moving, or continue moving at a constant speed in a straight line if it is already in motion.",
+    "style" : "NORMAL",
+    "align": "JUSTIFY"
+  },
+  {
+    "type": "text",
+    "content": "\nExample:",
+    "style": "BOLD"
+  },
+  {
+    "type": "text",
+    "content": "A car has a mass of 1,000 kg and is moving at a constant velocity of 20 m/s on the road. What is the net force acting on the car?",
+    "style": "NORMAL"
+  },
+  {
+    "type": "text",
+    "content": "Given:\n\t\tm = 1,000 kg\n\t\tv = 20 m/s (constant)\n\t\tF_net = ?",
+    "style": "BOLD"
+  },
+  {
+    "type": "text",
+    "content": "Formula:",
+    "style": "BOLD"
+  },
+  {
+    "type": "formula",
+    "latex": "F_net = m * a"
+  },
+  {
+    "type": "text",
+    "content": "Where:\n\t\tF_net = Net Force (Newtons)\n\t\tm = Mass (kg)\n\t\ta = Acceleration (m/s²)",
+    "style": "NORMAL"
+  },
+  {
+    "type": "text",
+    "content": "Since velocity is constant, acceleration is zero:",
+    "style": "BOLD"
+  },
+  {
+    "type": "text",
+    "content": "\t\tF_net = (1,000 kg)(0 m/s²)\n\t\tF_net = 0 N",
+    "style": "NORMAL"
+  }
+]

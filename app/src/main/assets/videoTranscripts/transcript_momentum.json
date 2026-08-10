@@ -1,0 +1,52 @@
+[
+  {"type": "text",
+    "content": "What is Momentum?",
+    "style" : "HEADING",
+    "align" : "LEFT"
+  },
+  {
+    "type": "text",
+    "content":  "Momentum in physics is the product of an object's mass and its velocity, representing how much motion it has.\n\nIt happens when an object with mass moves—the faster or heavier it is, the more momentum it carries.",
+    "style" : "NORMAL",
+    "align": "JUSTIFY"
+  },
+  {
+    "type": "text",
+    "content": "\nExample:",
+    "style": "BOLD"
+  },
+  {
+    "type": "text",
+    "content": "A ball has a mass of 4 kg and is moving at a velocity of 3 m/s. What is the momentum of the ball?",
+    "style": "NORMAL"
+  },
+  {
+    "type": "text",
+    "content": "Given:\n\t\tm = 4 kg\n\t\tv = 3 m/s\n\t\tp = ?",
+    "style": "BOLD"
+  },
+  {
+    "type": "text",
+    "content": "Formula:",
+    "style": "BOLD"
+  },
+  {
+    "type": "formula",
+    "latex": "p = m * v"
+  },
+  {
+    "type": "text",
+    "content": "Where:\n\t\tp = Momentum (kg⋅m/s)\n\t\tm = Mass (kg)\n\t\tv = Velocity (m/s)",
+    "style": "NORMAL"
+  },
+  {
+    "type": "text",
+    "content": "Plug in the values from the problem into the formula then solve:",
+    "style": "BOLD"
+  },
+  {
+    "type": "text",
+    "content": "\t\tp = 4 kg × 3 m/s\n\t\tp = 12 kg⋅m/s",
+    "style": "NORMAL"
+  }
+]

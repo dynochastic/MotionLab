@@ -1,0 +1,299 @@
+TEST QUESTIONS ANSWER KEY
+==========================
+
+MECHANICS
+---------
+
+Uniform Accelerated Motion & Projectile Motion
+
+1. An object moves with uniform acceleration. Which of the following remains constant? [Acceleration}
+
+2. Which of the following formulas is used to solve for final velocity in uniformly accelerated motion? [v = u + at}
+
+3. What do you call the amount of space covered by a moving object regardless of direction? [Distance}
+
+4. If a car's velocity changes from 5 m/s to 25 m/s in 4 seconds, what is the acceleration? [5m/s²}
+
+5. Which of the following situations describes uniformly accelerated motion? [A car stopping gradually at a traffic light}
+
+6. A vehicle starts from 12m/s and accelerates at 2m/s² for 3 seconds. What is its final velocity? [18m/s}
+
+7. An object moving at 10 m/s accelerates at 5m/s² for 2 seconds. What is the final velocity? [20 m/s}
+
+8. A runner increases speed from 4m/s to 12 m/s in 4 seconds. What is the acceleration? [2m/s²}
+
+9. A car starts from rest and accelerates at 3m/s² for 6 seconds. What is the final velocity? [18m/s}
+
+10. A motorcycle moving at 12m/s accelerates at 3m/s². If the final velocity is 30m/s, how long did it accelerate? [6 seconds}
+
+11. In uniformly accelerated motion, what happens to the velocity? [It increases or decreases at a constant rate}
+
+12. When an object is slowing down, the acceleration is [Negative}
+
+13. If an object starts from rest, its initial velocity is [Zero}
+
+14. If acceleration is zero, what kind of motion is the object undergoing? [Uniform motion (constant speed)}
+
+15. What is the term for the total change in position of an object, considering direction? [Displacement}
+
+16. A ball is launched at 20 m/s at an angle of 45°. What is the time of flight? [2.89 s}
+
+17. An object is launched at 30 m/s at a 60° angle. What is the maximum height it can reach? [34.47 m}
+
+18. A projectile is launched at 25 m/s at a 30° angle. What is the range of the projectile? [55.23 m}
+
+19. A stone is thrown at 15 m/s at a 60° angle. How long does it take to reach the maximum height? [1.33 s}
+
+20. A projectile launched at a 45° angle lands 80 meters away. What was the initial speed? [28 m/s}
+
+21. Which of the following best defines 'projectile'? [An object thrown or launched and moves only under the force of gravity}
+
+22. Which of the following remains constant during projectile motion (neglecting air resistance)? [Horizontal velocity}
+
+23. What does the symbol g represent in projectile motion? [Gravitational acceleration}
+
+24. What do you call the horizontal distance a projectile travels before hitting the ground? [Range}
+
+25. Which of the following best describes the acceleration of a projectile throughout its flight? [Constant and downward}
+
+26. What causes a projectile to follow a curved path? [The combination of horizontal motion and vertical acceleration due to gravity}
+
+27. At the peak (highest point) of a projectile's path, what is the vertical velocity? [Zero}
+
+28. What happens to the vertical velocity of a projectile as it rises? [It decreases until it becomes zero}
+
+29. When a projectile is launched at an angle, how are its horizontal and vertical motions related? [They are completely independent}
+
+30. What is the total time a projectile spends in the air called? [Time of flight}
+
+Momentum
+
+31. A 3 kg ball is rolling at 2 m/s. What is its momentum? [6 kg·m/s}
+
+32. An object has a momentum of 20 kg·m/s and is moving at 5 m/s. What is its mass? [4 kg}
+
+33. A 0.2 kg baseball is thrown at 40 m/s. What is its momentum? [8 kg·m/s}
+
+34. An object with a mass of 6 kg has a momentum of 30 kg·m/s. What is its velocity? [5 m/s}
+
+35. Which has greater momentum?
+• Object A: 5 kg at 3 m/s
+• Object B: 3 kg at 5 m/s [Both have equal momentum}
+
+36. Which object has the greatest momentum?
+A: 2 kg at 10 m/s
+B: 4 kg at 5 m/s
+C: 3 kg at 8 m/s [Object C}
+
+37. What is the most important requirement to calculate the momentum of an object? [Mass and velocity of the object}
+
+38. What does it mean if an object has zero momentum? [It is not moving or has zero velocity}
+
+39. Why is the 'conservation of momentum' an important concept during collisions? [To ensure total momentum is the same before and after a collision}
+
+40. Which of the following proves that momentum is a vector quantity? [It has direction}
+
+41. What term refers to the product of an object's mass and velocity? [Momentum}
+
+42. Which term describes the change in momentum caused by a force acting over time? [Impulse}
+
+43. What law states that the total momentum in a closed system remains constant during a collision? [Law of Conservation of Momentum}
+
+44. What quantity must have both magnitude and direction to affect momentum? [Velocity}
+
+45. Which of the following is the correct SI unit for momentum? [Kilogram meter per second (kg·m/s)}
+
+Newton's Laws
+
+46. You place a plastic plate on top of a smooth tablecloth and pull the tablecloth quickly and straight out from under the plate. Why does the plate stay nearly in place? [Inertia resists the change in motion, so the plate stays in place}
+
+47. You place an index card on top of a glass and put a coin on the card. When you flick the card quickly, what happens to the coin, and why? [The coin falls into the glass because it stays at rest due to inertia}
+
+48. You roll a small ball across a smooth tile floor. If no one stops it, what should happen to the ball according to Newton's First Law? [It should continue in constant motion, unless acted upon by an unbalanced force}
+
+49. You push a toy car on the floor and then stop pushing it. The car eventually slows down and stops. Why doesn't the car keep moving forever like Newton's First Law says? [Friction and air resistance act on the car, slowing it down}
+
+50. You place a heavy book on a table and do not touch it. Why doesn't the book move? [There is no unbalanced force acting on the book}
+
+51. Two students pull on opposite ends of a rope with equal force at the same time. Why doesn't the rope move? [The forces are balanced, so the net force is zero}
+
+52. The net force acting on an object moving at constant velocity is: [Zero}
+
+53. What is the tendency of an object to resist a change in its motion called? [Inertia}
+
+54. When an object is at rest and no net force acts on it, it: [Remains at rest}
+
+55. A 10 kg box is at rest on the floor. What is the net force acting on it? [0 N}
+
+56. A 5 kg object is moving at a constant velocity. What is the net force on it? [0 N}
+
+57. If a car moves with constant velocity, what is its acceleration? [0 m/s²}
+
+58. A 12 kg box is pushed with 30 N and opposed by 30 N of friction. What is the net force? [0 N}
+
+59. A 1000 kg car moves at 20 m/s with no acceleration. What is the net force? [0 N}
+
+60. A 50 kg object moves at constant speed. What is the acceleration? [0 m/s²}
+
+61. What is the force needed to accelerate a 10 kg object at 2 m/s²? [20 N}
+
+62. A 15 kg object accelerates at 3 m/s². What is the force applied? [45 N}
+
+63. An object experiences 50 N of force and accelerates at 10 m/s². What is its mass? [5 kg}
+
+64. A 12 kg cart is pushed with a force of 60 N. What is the acceleration? [5 m/s²}
+
+65. If the net force on a 25 kg object is 125 N, what is its acceleration? [5 m/s²}
+
+66. A 5 kg object is pushed with 40 N force. What is the acceleration? [8 m/s²}
+
+67. What does Newton's Second Law explain? [The relationship between force, mass, and acceleration}
+
+68. In the formula F=ma, what does "F" stand for? [Force}
+
+69. What unit is used to measure force? [Newton (N)}
+
+70. What is the unit of mass in Newton's Second Law? [Kilogram (kg)}
+
+71. What is acceleration? [The rate of change of velocity}
+
+72. What is the meaning of the term "mass"? [The amount of matter in an object}
+
+73. Why is Newton's Second Law important in physics? [It helps describe motion caused by forces}
+
+74. What happens to the acceleration if the same force is applied to a heavier object? [Acceleration decreases}
+
+75. What does a net force of zero mean for an object? [It will not accelerate}
+
+76. A 0.05 kg bullet is fired with an acceleration of 600 m/s². What is the force on the bullet? [30 N}
+
+77. A 0.2 kg rock is thrown and accelerates at 50 m/s². What is the force on the rock, and what is the reaction force? [10 N and 10 N}
+
+78. A child with mass 25 kg kicks a ball and recoils backward with acceleration of 0.8 m/s². What is the recoil force on the child? [20 N}
+
+79. A swimmer pushes the water backward with 120 N. How much force does the water exert on the swimmer? [120 N}
+
+80. A 70 kg person jumps and applies a 700 N force on the ground. What force does the ground apply back to the person? [700 N}
+
+81. What does Newton's Third Law state? [Every action has an equal and opposite reaction.}
+
+82. What is a "reaction force"? [A force that equals and opposes an action force}
+
+83. Action and reaction forces are always... [Equal in strength and opposite in direction}
+
+84. What is a force? [A push or pull on an object}
+
+85. What unit is used to measure force? [Newton}
+
+86. When you push on a wall, the wall... [Pushes you back with equal force}
+
+87. If you jump off a boat, the boat moves... [Backward}
+
+88. What is the cause of the reaction force in Newton's 3rd Law? [The action force}
+
+89. Which best describes Newton's Third Law of Motion? [For every action, there is an equal and opposite reaction.}
+
+90. A person pushes down on a table. What is the table's response? [The table pushes up with equal force}
+
+
+WORK
+----
+
+1. A force of 10 N moves an object 5 meters in the same direction. What is the work done? [50 J}
+
+2. A man pushes a cart with 25 N of force across 3 meters. How much work is done? [75 J}
+
+3. A box is lifted with a force of 100 N to a height of 2 meters. How much work is done? [200 J}
+
+4. A child pushes a toy with 12 N of force for 4 meters. How much work is done? [48 J}
+
+5. A person applies a force of 60 N, but the object does not move. What is the work done? [0 J}
+
+6. A student lifts a book weighing 15 N to a height of 2 meters. What is the work done? [30 J}
+
+7. A car engine applies a 200 N force to move the car 15 meters forward. How much work is done? [3,000 J}
+
+8. A person pushes a wheelbarrow with 20 N of force for 7 meters. How much work is done? [140 J}
+
+9. A boy pulls a box with a force of 30 N for 9 meters in the same direction. What is the work done? [270 J}
+
+10. A person applies a 45 N force to move an object 0 meters. How much work is done? [0 J}
+
+11. What is the unit of work in the SI (International System of Units)? [Joule}
+
+12. Which quantity must be present along with force for work to be done? [Distance}
+
+13. What kind of quantity is work in terms of direction? [Scalar}
+
+14. Which of the following best describes "work" in Physics? [A force that moves an object over a distance}
+
+15. What is the formula used to calculate work? [W = F × d}
+
+
+POWER
+-----
+
+16. A machine does 600 J of work in 10 seconds. What is the power? [60 W}
+
+17. A student lifts a 200 N box 2 meters high in 4 seconds. What is the power? [100 W}
+
+18. A crane does 900 J of work in 9 seconds. What is the power? [100 W}
+
+19. A weightlifter lifts a 500 N weight 1 meter high in 2 seconds. What is the power? [250 W}
+
+20. A boy pulls a wagon with 30 N of force for 10 meters in 5 seconds. What is the power? [60 W}
+
+21. What is the SI unit of power? [Watt}
+
+22. What quantity is described as the rate at which work is done? [Power}
+
+23. What is the formula for power? [P = W / t}
+
+24. If no work is done, what is the power? [0 W}
+
+25. Which of the following affects power? [Work and time}
+
+26. What is the unit 'Joule per second' equal to? [Watt}
+
+27. Which factor increases power output? [More work in less time}
+
+28. What is the power if 600 J of work is done in 3 seconds? [200 W}
+
+29. Which of the following is NOT a unit of power? [Joule}
+
+30. A motor does 1000 J of work in 20 seconds. What is its power output? [50 W}
+
+
+ENERGY
+------
+
+31. What is the formula for gravitational potential energy? [PE = mgh}
+
+32. What does gravitational potential energy depend on? [Mass and height}
+
+33. A 1.5 kg book is lifted to a shelf 2.0 meters high. How much potential energy is stored? [29.4 J}
+
+34. What is the potential energy of a 1500 kg car lifted 20 m by a crane? [294,000 J}
+
+35. What kind of energy does a moving hammer have? [Kinetic energy}
+
+36. A basketball (0.0400 kg) drops from 5.00 m. What PE is lost? [1.96 J}
+
+37. The ball bounces back to 3.00 m. What PE is regained? [1.18 J}
+
+38. Which is an example of radiant energy? [Sunlight absorbed by a photocell}
+
+39. What type of energy is stored in a stick of dynamite? [Chemical}
+
+40. What is the PE of a 60 kg circus man on a 20 m platform? [11,760 J}
+
+41. What is the kinetic energy of a 3 kg object moving at 6 m/s? [54 J}
+
+42. What happens when the boy falls from the bed? [PE becomes KE}
+
+43. What does a negative energy value (e.g., –300 J) mean? [Lost energy}
+
+44. What is the PE of a 10 kg coconut 25 m above ground? [2450 J}
+
+45. What determines the zero point for PE calculations? [Chosen reference point}
+

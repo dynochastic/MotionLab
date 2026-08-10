@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Horizontal Projectile – Time to Hit Ground",
+    "question": "A ball rolls off a 20-meter high cliff with a horizontal speed of 5 m/s. Find the time before it hits the ground using vertical motion.",
+    "template": [
+      "t = √( 2 × __ / __ )",
+      "t = √( __ / __ )",
+      "t = √( __ )",
+      "t = __ s"
+    ],
+    "answers": [
+      { "blankIndex": 0, "value": "20" },
+      { "blankIndex": 1, "value": "9.8" },
+      { "blankIndex": 2, "value": "40"},
+      { "blankIndex": 3, "value": "9.8" },
+      { "blankIndex": 4, "value": "4.08" },
+      { "blankIndex": 5, "value": "2.02" }
+    ],
+    "choices": ["2.02", "20", "9.8", "4.08", "9.8", "40"],
+    "commutative": false
+  },
+  {
+    "id": 2,
+    "title": "Horizontal Projectile – Range",
+    "question": "A ball is launched horizontally from a 20 m high cliff with a speed of 5 m/s. How far will it travel horizontally before hitting the ground? (Use time of flight = 2.02 s)",
+    "template": [
+      "R = Vₓ × t = __ × __",
+      "R = __ m"
+    ],
+    "answers": [
+      { "blankIndex": 0, "value": "5" },
+      { "blankIndex": 1, "value": "2.02" },
+      { "blankIndex": 2, "value": "10.1" }
+    ],
+    "choices": ["5", "2.02", "10.1", "8.5", "4.0"],
+    "commutative": true
+  },
+  {
+    "id": 3,
+    "title": "Time of Flight – Angled Launch",
+    "question": "A projectile is launched at 25 m/s at a 40° angle from the ground. Determine the total time of flight before it lands.",
+    "template": [
+      "Vᵧ = __ × sin(__ °)",
+      "Vᵧ = __ m/s",
+      "T = 2 × __ / __",
+      "T = __ / __",
+      "T = __ s"
+    ],
+    "answers": [
+      { "blankIndex": 0, "value": "25" },
+      { "blankIndex": 1, "value": "40" },
+      { "blankIndex": 2, "value": "16.07" },
+      { "blankIndex": 3, "value": "16.07" },
+      { "blankIndex": 4, "value": "9.8" },
+      { "blankIndex": 5, "value": "32.14" },
+      { "blankIndex": 6, "value": "9.8" },
+      { "blankIndex": 7, "value": "3.28" }
+    ],
+    "choices": ["25", "40", "16.07", "9.8", "32.14", "9.8", "16.07", "3.28"],
+    "commutative": false
+  },
+  {
+    "id": 4,
+    "title": "Maximum Height – Angled Launch",
+    "question": "A projectile is launched at 25 m/s at a 40° angle. Find the maximum height it reaches. (Use vertical component Vᵧ = 16.07 m/s)",
+    "template": [
+      "H = ( __ )² / ( 2 × __ )",
+      "H = __ / __",
+      "H = __ m"
+    ],
+    "answers": [
+      { "blankIndex": 0, "value": "16.07" },
+      { "blankIndex": 1, "value": "9.8" },
+      { "blankIndex": 2, "value": "258.2" },
+      { "blankIndex": 3, "value": "19.6" },
+      { "blankIndex": 4, "value": "13.18" }
+    ],
+    "choices": ["16.07", "9.8", "258.2", "19.6", "13.18", "12.5", "10.0"],
+    "commutative": false
+  }
+]

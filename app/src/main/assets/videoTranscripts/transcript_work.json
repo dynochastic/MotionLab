@@ -1,0 +1,52 @@
+[
+  {"type": "text",
+    "content": "What is Work?",
+    "style" : "HEADING",
+    "align" : "LEFT"
+  },
+  {
+    "type": "text",
+    "content":  "Work is done when a force is applied to an object and the object moves in the direction of the force.\n\nWork happens when there is both applied force and movement. No movement means no work is done, regardless of how much force is applied.",
+    "style" : "NORMAL",
+    "align": "JUSTIFY"
+  },
+  {
+    "type": "text",
+    "content": "\nExample:",
+    "style": "BOLD"
+  },
+  {
+    "type": "text",
+    "content": "A man pushes a crate with 40 N of force, but it doesn't move. How much work is done?",
+    "style": "NORMAL"
+  },
+  {
+    "type": "text",
+    "content": "Given:\n\t\tF = 40 N\n\t\td = 0 m (no movement)\n\t\tW = ?",
+    "style": "BOLD"
+  },
+  {
+    "type": "text",
+    "content": "Formula:",
+    "style": "BOLD"
+  },
+  {
+    "type": "formula",
+    "latex": "W = F * d"
+  },
+  {
+    "type": "text",
+    "content": "Where:\n\t\tW = Work (Joules)\n\t\tF = Force (Newtons)\n\t\td = Distance (meters)",
+    "style": "NORMAL"
+  },
+  {
+    "type": "text",
+    "content": "Plug in the values from the problem into the formula then solve:",
+    "style": "BOLD"
+  },
+  {
+    "type": "text",
+    "content": "\t\tW = 40 N × 0 m\n\t\tW = 0 J",
+    "style": "NORMAL"
+  }
+]

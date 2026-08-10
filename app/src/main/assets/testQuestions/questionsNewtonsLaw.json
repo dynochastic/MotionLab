@@ -1,0 +1,317 @@
+[
+  {
+    "id": 1,
+    "lessonId": 2,
+    "question": "You place a plastic plate on top of a smooth tablecloth and pull the tablecloth quickly and straight out from under the plate. Why does the plate stay nearly in place?",
+    "choices": ["The tablecloth pulls the plate forward with it", "Gravity keeps the plate from moving sideways", "Friction causes the plate to slide off the table", "Inertia resists the change in motion, so the plate stays in place"],
+    "answer": "Inertia resists the change in motion, so the plate stays in place"
+  },
+  {
+    "id": 2,
+    "lessonId": 2,
+    "question": "You place an index card on top of a glass and put a coin on the card. When you flick the card quickly, what happens to the coin, and why?",
+    "choices": ["The coin moves sideways with the card because of gravity", "The coin flips into the air due to the upward force", "The coin falls into the glass because it stays at rest due to inertia", "The coin sticks to the card because of friction"],
+    "answer": "The coin falls into the glass because it stays at rest due to inertia"
+  },
+  {
+    "id": 3,
+    "lessonId": 2,
+    "question": "You roll a small ball across a smooth tile floor. If no one stops it, what should happen to the ball according to Newton’s First Law?",
+    "choices": ["It should speed up continuously until it hits something", "It should stop on its own because objects naturally come to rest", "It should continue in constant motion, unless acted upon by an unbalanced force", "It should bounce back toward you because of gravity"],
+    "answer": "It should continue in constant motion, unless acted upon by an unbalanced force"
+  },
+  {
+    "id": 4,
+    "lessonId": 2,
+    "question": "You push a toy car on the floor and then stop pushing it. The car eventually slows down and stops. Why doesn’t the car keep moving forever like Newton’s First Law says?",
+    "choices": ["Friction and air resistance act on the car, slowing it down", "The battery of the toy car runs out", "The toy car is too light to keep moving", "Newton’s First Law only applies to objects in space"],
+    "answer": "Friction and air resistance act on the car, slowing it down"
+  },
+  {
+    "id": 5,
+    "lessonId": 2,
+    "question": "You place a heavy book on a table and do not touch it. Why doesn’t the book move?",
+    "choices": ["The book is too heavy to move on its own", "There is no unbalanced force acting on the book", "The table pushes the book downward", "The air pressure holds the book in place"],
+    "answer": "There is no unbalanced force acting on the book"
+  },
+  {
+    "id": 6,
+    "lessonId": 2,
+    "question": "Two students pull on opposite ends of a rope with equal force at the same time. Why doesn’t the rope move?",
+    "choices": ["The rope is too heavy to move", "The forces are balanced, so the net force is zero", "The rope is stuck to the ground", "The students are not pulling hard enough"],
+    "answer": "The forces are balanced, so the net force is zero"
+  },
+  {
+    "id": 7,
+    "lessonId": 2,
+    "question": "The net force acting on an object moving at constant velocity is:",
+    "choices": ["Increasing", "Negative", "Positive", "Zero"],
+    "answer": "Zero"
+  },
+  {
+    "id": 8,
+    "lessonId": 2,
+    "question": "What is the tendency of an object to resist a change in its motion called?",
+    "choices": ["Velocity", "Acceleration", "Inertia", "Gravity"],
+    "answer": "Inertia"
+  },
+  {
+    "id": 9,
+    "lessonId": 2,
+    "question": "When an object is at rest and no net force acts on it, it:",
+    "choices": ["Accelerates", "Remains at rest", "Moves in a circle", "Gains momentum"],
+    "answer": "Remains at rest"
+  },
+  {
+    "id": 10,
+    "lessonId": 2,
+    "question": "A 10 kg box is at rest on the floor. What is the net force acting on it?",
+    "choices": ["0 N", "10 N", "98 N", "100 N"],
+    "answer": "0 N"
+  },
+  {
+    "id": 11,
+    "lessonId": 2,
+    "question": "A 5 kg object is moving at a constant velocity. What is the net force on it?",
+    "choices": ["5 N", "9.8 N", "0 N", "10 N"],
+    "answer": "0 N"
+  },
+  {
+    "id": 12,
+    "lessonId": 2,
+    "question": "If a car moves with constant velocity, what is its acceleration?",
+    "choices": ["1 m/s²", "10 m/s²", "9.8 m/s²", "0 m/s²"],
+    "answer": "0 m/s²"
+  },
+  {
+    "id": 13,
+    "lessonId": 2,
+    "question": "A 12 kg box is pushed with 30 N and opposed by 30 N of friction. What is the net force?",
+    "choices": ["0 N", "6 N", "15 N", "360 N"],
+    "answer": "0 N"
+  },
+  {
+    "id": 14,
+    "lessonId": 2,
+    "question": "A 1000 kg car moves at 20 m/s with no acceleration. What is the net force?",
+    "choices": ["200 N", "0 N", "500 N", "20,000 N"],
+    "answer": "0 N"
+  },
+  {
+    "id": 15,
+    "lessonId": 2,
+    "question": "A 50 kg object moves at constant speed. What is the acceleration?",
+    "choices": ["5 m/s²", "0 m/s²", "9.8 m/s²", "50 m/s²"],
+    "answer": "0 m/s²"
+  },
+  {
+    "id": 16,
+    "lessonId": 2,
+    "question": "What is the force needed to accelerate a 10 kg object at 2 m/s²?",
+    "choices": ["5 N", "10 N", "20 N", "25 N"],
+    "answer": "20 N"
+  },
+  {
+    "id": 17,
+    "lessonId": 2,
+    "question": "A 15 kg object accelerates at 3 m/s². What is the force applied?",
+    "choices": ["35 N", "50 N", "45 N", "60 N"],
+    "answer": "45 N"
+  },
+  {
+    "id": 18,
+    "lessonId": 2,
+    "question": "An object experiences 50 N of force and accelerates at 10 m/s². What is its mass?",
+    "choices": ["2 kg", "5 kg", "10 kg", "20 kg"],
+    "answer": "5 kg"
+  },
+  {
+    "id": 19,
+    "lessonId": 2,
+    "question": "A 12 kg cart is pushed with a force of 60 N. What is the acceleration?",
+    "choices": ["3 m/s²", "6 m/s²", "4 m/s²", "5 m/s²"],
+    "answer": "5 m/s²"
+  },
+  {
+    "id": 20,
+    "lessonId": 2,
+    "question": "If the net force on a 25 kg object is 125 N, what is its acceleration?",
+    "choices": ["4 m/s²", "5 m/s²", "6 m/s²", "3 m/s²"],
+    "answer": "5 m/s²"
+  },
+  {
+    "id": 21,
+    "lessonId": 2,
+    "question": "A 5 kg object is pushed with 40 N force. What is the acceleration?",
+    "choices": ["8 m/s²", "6 m/s²", "7 m/s²", "9 m/s²"],
+    "answer": "8 m/s²"
+  },
+  {
+    "id": 22,
+    "lessonId": 2,
+    "question": "What does Newton’s Second Law explain?",
+    "choices": ["Why objects stop moving", "How forces are always equal", "The relationship between force, mass, and acceleration", "The effect of gravity on mass"],
+    "answer": "The relationship between force, mass, and acceleration"
+  },
+  {
+    "id": 23,
+    "lessonId": 2,
+    "question": "In the formula F=ma, what does \"F\" stand for?",
+    "choices": ["Friction", "Force", "Frequency", "Formation"],
+    "answer": "Force"
+  },
+  {
+    "id": 24,
+    "lessonId": 2,
+    "question": "What unit is used to measure force?",
+    "choices": ["Kilogram (kg)", "Meter per second (m/s)", "Newton (N)", "Joule (J)"],
+    "answer": "Newton (N)"
+  },
+  {
+    "id": 25,
+    "lessonId": 2,
+    "question": "What is the unit of mass in Newton’s Second Law?",
+    "choices": ["Newton (N)", "Kilogram (kg)", "Gram (g)", "Liter (L)"],
+    "answer": "Kilogram (kg)"
+  },
+  {
+    "id": 26,
+    "lessonId": 2,
+    "question": "What is acceleration?",
+    "choices": ["The rate of change of velocity", "The amount of gravity on an object", "A change in mass over time", "The total distance moved"],
+    "answer": "The rate of change of velocity"
+  },
+  {
+    "id": 27,
+    "lessonId": 2,
+    "question": "What is the meaning of the term \"mass\"?",
+    "choices": ["The amount of force applied to an object", "The weight of an object", "The speed of an object", "The amount of matter in an object"],
+    "answer": "The amount of matter in an object"
+  },
+  {
+    "id": 28,
+    "lessonId": 2,
+    "question": "Why is Newton’s Second Law important in physics?",
+    "choices": ["It helps describe motion caused by forces", "It explains energy conversion", "It explains gravitational pull", "It measures temperature changes"],
+    "answer": "It helps describe motion caused by forces"
+  },
+  {
+    "id": 29,
+    "lessonId": 2,
+    "question": "What happens to the acceleration if the same force is applied to a heavier object?",
+    "choices": ["Acceleration increases", "Acceleration decreases", "Acceleration stays the same", "Object will not move"],
+    "answer": "Acceleration decreases"
+  },
+  {
+    "id": 30,
+    "lessonId": 2,
+    "question": "What does a net force of zero mean for an object?",
+    "choices": ["It will accelerate", "It will explode", "It will move faster", "It will not accelerate"],
+    "answer": "It will not accelerate"
+  },
+  {
+    "id": 31,
+    "lessonId": 2,
+    "question": "A 0.05 kg bullet is fired with an acceleration of 600 m/s². What is the force on the bullet?",
+    "choices": ["25 N", "30 N", "35 N", "40 N"],
+    "answer": "30 N"
+  },
+  {
+    "id": 32,
+    "lessonId": 2,
+    "question": "A 0.2 kg rock is thrown and accelerates at 50 m/s². What is the force on the rock, and what is the reaction force?",
+    "choices": ["10 N and 10 N", "5 N and 5 N", "15 N and 15 N", "20 N and 20 N"],
+    "answer": "10 N and 10 N"
+  },
+  {
+    "id": 33,
+    "lessonId": 2,
+    "question": "A child with mass 25 kg kicks a ball and recoils backward with acceleration of 0.8 m/s². What is the recoil force on the child?",
+    "choices": ["10 N", "15 N", "20 N", "25 N"],
+    "answer": "20 N"
+  },
+  {
+    "id": 34,
+    "lessonId": 2,
+    "question": "A swimmer pushes the water backward with 120 N. How much force does the water exert on the swimmer?",
+    "choices": ["100 N", "120 N", "140 N", "160 N"],
+    "answer": "120 N"
+  },
+  {
+    "id": 35,
+    "lessonId": 2,
+    "question": "A 70 kg person jumps and applies a 700 N force on the ground. What force does the ground apply back to the person?",
+    "choices": ["650 N", "700 N", "750 N", "800 N"],
+    "answer": "700 N"
+  },
+  {
+    "id": 36,
+    "lessonId": 2,
+    "question": "What does Newton’s Third Law state?",
+    "choices": ["Every action has an equal and opposite reaction.", "Force equals mass times acceleration.", "All objects resist motion.", "Objects at rest stay at rest."],
+    "answer": "Every action has an equal and opposite reaction."
+  },
+  {
+    "id": 37,
+    "lessonId": 2,
+    "question": "What is a “reaction force”?",
+    "choices": ["A force that stops motion", "A force that equals and opposes an action force", "The result of mass", "A forward force only"],
+    "answer": "A force that equals and opposes an action force"
+  },
+  {
+    "id": 38,
+    "lessonId": 2,
+    "question": "Action and reaction forces are always...",
+    "choices": ["Unequal and opposite", "Zero", "In the same direction", "Equal in strength and opposite in direction"],
+    "answer": "Equal in strength and opposite in direction"
+  },
+  {
+    "id": 39,
+    "lessonId": 2,
+    "question": "What is a force?",
+    "choices": ["A speed", "A type of matter", "A push or pull on an object", "A form of energy"],
+    "answer": "A push or pull on an object"
+  },
+  {
+    "id": 40,
+    "lessonId": 2,
+    "question": "What unit is used to measure force?",
+    "choices": ["Kilogram", "Meter", "Joule", "Newton"],
+    "answer": "Newton"
+  },
+  {
+    "id": 41,
+    "lessonId": 2,
+    "question": "When you push on a wall, the wall...",
+    "choices": ["Does not respond", "Pushes you back with equal force", "Moves", "Disappears"],
+    "answer": "Pushes you back with equal force"
+  },
+  {
+    "id": 42,
+    "lessonId": 2,
+    "question": "If you jump off a boat, the boat moves...",
+    "choices": ["Forward", "Backward", "Upward", "Nowhere"],
+    "answer": "Backward"
+  },
+  {
+    "id": 43,
+    "lessonId": 2,
+    "question": "What is the cause of the reaction force in Newton's 3rd Law?",
+    "choices": ["Friction", "Air resistance", "Gravity", "The action force"],
+    "answer": "The action force"
+  },
+  {
+    "id": 44,
+    "lessonId": 2,
+    "question": "Which best describes Newton’s Third Law of Motion?",
+    "choices": ["For every action, there is an equal and opposite reaction.", "Acceleration is caused by net force.", "Objects in motion stay in motion.", "All forces cause motion."],
+    "answer": "For every action, there is an equal and opposite reaction."
+  },
+  {
+    "id": 45,
+    "lessonId": 2,
+    "question": "A person pushes down on a table. What is the table’s response?",
+    "choices": ["The table breaks", "The table bends", "The table moves sideways", "The table pushes up with equal force"],
+    "answer": "The table pushes up with equal force"
+  }
+]

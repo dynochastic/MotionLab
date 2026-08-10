@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "title": "Solving for Acceleration",
+    "question": "You push a box with a force of 60 N, and the box has a mass of 15 kg. What is the acceleration?",
+    "template": [
+      "a = F/m = __ / __",
+      "a = __ m/s²"
+    ],
+    "answers": [
+      { "blankIndex": 0, "value": "60" },
+      { "blankIndex": 1, "value": "15" },
+      { "blankIndex": 2, "value": "4" }
+    ],
+    "choices": ["60", "15", "4"],
+    "commutative": false
+  },
+  {
+    "id": 2,
+    "title": "With Opposing Forces (Friction)",
+    "question": "A box is pushed with a force of 80 N, but there's friction opposing with 20 N. The box has a mass of 12 kg. What is the acceleration?",
+    "template": [
+      "Fnet = __ − __",
+      "a = Fnet/m = __ / __",
+      "a = __ m/s²"
+    ],
+    "answers": [
+      { "blankIndex": 0, "value": "80" },
+      { "blankIndex": 1, "value": "20" },
+      { "blankIndex": 2, "value": "60" },
+      { "blankIndex": 3, "value": "12" },
+      { "blankIndex": 4, "value": "5" }
+    ],
+    "choices": ["80", "20", "60", "12", "5"],
+    "commutative": false
+  },
+  {
+    "id": 3,
+    "title": "Solving for Mass",
+    "question": "A net force of 36 N causes an object to accelerate at 4 m/s². What is the object’s mass?",
+    "template": [
+      "m = F/a = __ / __",
+      "m = __ kg"
+    ],
+    "answers": [
+      { "blankIndex": 0, "value": "36" },
+      { "blankIndex": 1, "value": "4" },
+      { "blankIndex": 2, "value": "9" }
+    ],
+    "choices": ["36", "4", "9"],
+    "commutative": false
+  }
+]

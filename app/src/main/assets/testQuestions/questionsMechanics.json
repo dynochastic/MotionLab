@@ -1,0 +1,327 @@
+[
+  {
+    "id": 1,
+    "lessonId": 1,
+    "question": "An object moves with uniform acceleration. Which of the following remains constant?",
+    "choices": ["Speed", "Velocity", "Acceleration", "Displacement"],
+    "answer": "Acceleration"
+  },
+  {
+    "id": 2,
+    "lessonId": 1,
+    "question": "Which of the following formulas is used to solve for final velocity in uniformly accelerated motion?",
+    "choices": ["v = u + at", "s = ut + ½ at²", "a = (v - u) / t", "v² = u² + 2as"],
+    "answer": "v = u + at"
+  },
+  {
+    "id": 3,
+    "lessonId": 1,
+    "question": "What do you call the amount of space covered by a moving object regardless of direction?",
+    "choices": ["Displacement", "Distance", "Speed", "Velocity"],
+    "answer": "Distance"
+  },
+  {
+    "id": 4,
+    "lessonId": 1,
+    "question": "If a car's velocity changes from 5 m/s to 25 m/s in 4 seconds, what is the acceleration?",
+    "choices": ["5m/s²", "10m/s²", "4m/s²", "6m/s²"],
+    "answer": "5m/s²",
+    "solution": "a = (25 - 5) / 4 = 5m/s²"
+  },
+  {
+    "id": 5,
+    "lessonId": 1,
+    "question": "Which of the following situations describes uniformly accelerated motion?",
+    "choices": ["A fan spinning at a steady speed", "A car stopping gradually at a traffic light", "A person walking at constant speed", "A ball bouncing on the ground"],
+    "answer": "A car stopping gradually at a traffic light"
+  },
+  {
+    "id": 6,
+    "lessonId": 1,
+    "question": "A vehicle starts from 12m/s and accelerates at 2m/s² for 3 seconds. What is its final velocity?",
+    "choices": ["16m/s", "18m/s", "20m/s", "22m/s"],
+    "answer": "18m/s",
+    "solution": "v = 12 + 2(3) = 18m/s"
+  },
+  {
+    "id": 7,
+    "lessonId": 1,
+    "question": "An object moving at 10 m/s accelerates at 5m/s² for 2 seconds. What is the final velocity?",
+    "choices": ["15 m/s", "18 m/s", "20 m/s", "22 m/s"],
+    "answer": "20 m/s",
+    "solution": "v = 10 + 5(2) = 20m/s"
+  },
+  {
+    "id": 8,
+    "lessonId": 1,
+    "question": "A runner increases speed from 4m/s to 12 m/s in 4 seconds. What is the acceleration?",
+    "choices": ["3m/s²", "2m/s²", "4m/s²", "1m/s²"],
+    "answer": "2m/s²",
+    "solution": "a = (12 - 4) / 4 = 2m/s²"
+  },
+  {
+    "id": 9,
+    "lessonId": 1,
+    "question": "A car starts from rest and accelerates at 3m/s² for 6 seconds. What is the final velocity?",
+    "choices": ["18m/s", "20m/s", "15m/s", "10m/s"],
+    "answer": "18m/s",
+    "solution": "v = 0 + 3(6) = 18m/s"
+  },
+  {
+    "id": 10,
+    "lessonId": 1,
+    "question": "A motorcycle moving at 12m/s accelerates at 3m/s². If the final velocity is 30m/s, how long did it accelerate?",
+    "choices": ["4 seconds", "5 seconds", "6 seconds", "8 seconds"],
+    "answer": "6 seconds",
+    "solution": "t = (30 - 12) / 3 = 6 seconds"
+  },
+  {
+    "id": 11,
+    "lessonId": 1,
+    "question": "In uniformly accelerated motion, what happens to the velocity?",
+    "choices": ["It remains constant", "It increases or decreases at a constant rate", "It stops changing", "It becomes negative"],
+    "answer": "It increases or decreases at a constant rate"
+  },
+  {
+    "id": 12,
+    "lessonId": 1,
+    "question": "When an object is slowing down, the acceleration is",
+    "choices": ["Positive", "Zero", "Negative", "Increasing"],
+    "answer": "Negative"
+  },
+  {
+    "id": 13,
+    "lessonId": 1,
+    "question": "If an object starts from rest, its initial velocity is",
+    "choices": ["Zero", "One", "Equal to final velocity", "Undefined"],
+    "answer": "Zero"
+  },
+  {
+    "id": 14,
+    "lessonId": 1,
+    "question": "If acceleration is zero, what kind of motion is the object undergoing?",
+    "choices": ["Uniformly accelerated", "Non-uniform", "Uniform motion (constant speed)", "Free fall"],
+    "answer": "Uniform motion (constant speed)"
+  },
+  {
+    "id": 15,
+    "lessonId": 1,
+    "question": "What is the term for the total change in position of an object, considering direction?",
+    "choices": ["Distance", "Path", "Displacement", "Velocity"],
+    "answer": "Displacement"
+  },
+  {
+    "id": 16,
+    "lessonId": 1,
+    "question": "A ball is launched at 20 m/s at an angle of 45°. What is the time of flight?",
+    "choices": ["1.42 s", "2.89 s", "3.52 s", "4.25 s"],
+    "answer": "2.89 s"
+  },
+  {
+    "id": 17,
+    "lessonId": 1,
+    "question": "An object is launched at 30 m/s at a 60° angle. What is the maximum height it can reach?",
+    "choices": ["29.30 m", "32.50 m", "34.47 m", "36.75 m"],
+    "answer": "34.47 m"
+  },
+  {
+    "id": 18,
+    "lessonId": 1,
+    "question": "A projectile is launched at 25 m/s at a 30° angle. What is the range of the projectile?",
+    "choices": ["50.18 m", "53.10 m", "55.23 m", "58.92 m"],
+    "answer": "55.23 m"
+  },
+  {
+    "id": 19,
+    "lessonId": 1,
+    "question": "A stone is thrown at 15 m/s at a 60° angle. How long does it take to reach the maximum height?",
+    "choices": ["1.10 s", "1.33 s", "1.57 s", "1.75 s"],
+    "answer": "1.33 s"
+  },
+  {
+    "id": 20,
+    "lessonId": 1,
+    "question": "A projectile launched at a 45° angle lands 80 meters away. What was the initial speed?",
+    "choices": ["24 m/s", "26 m/s", "28 m/s", "30 m/s"],
+    "answer": "28 m/s"
+  },
+  {
+    "id": 21,
+    "lessonId": 1,
+    "question": "Which of the following best defines 'projectile'?",
+    "choices": ["An object that floats in air", "An object moving under the influence of air resistance only", "An object thrown or launched and moves only under the force of gravity", "An object that moves in a straight line forever"],
+    "answer": "An object thrown or launched and moves only under the force of gravity"
+  },
+  {
+    "id": 22,
+    "lessonId": 1,
+    "question": "Which of the following remains constant during projectile motion (neglecting air resistance)?",
+    "choices": ["Vertical velocity", "Horizontal velocity", "Total Speed", "Acceleration"],
+    "answer": "Horizontal velocity"
+  },
+  {
+    "id": 23,
+    "lessonId": 1,
+    "question": "What does the symbol g represent in projectile motion?",
+    "choices": ["Ground level", "General speed", "Gravitational acceleration", "Generated velocity"],
+    "answer": "Gravitational acceleration"
+  },
+  {
+    "id": 24,
+    "lessonId": 1,
+    "question": "What do you call the horizontal distance a projectile travels before hitting the ground?",
+    "choices": ["Range", "Time of flight", "Height", "Displacement"],
+    "answer": "Range"
+  },
+  {
+    "id": 25,
+    "lessonId": 1,
+    "question": "Which of the following best describes the acceleration of a projectile throughout its flight?",
+    "choices": ["Constant and upward", "Constant and downward", "Changing and horizontal", "Zero"],
+    "answer": "Constant and downward"
+  },
+  {
+    "id": 26,
+    "lessonId": 1,
+    "question": "What causes a projectile to follow a curved path?",
+    "choices": ["Constant speed", "Air resistance", "The resistance of the Earth", "The combination of horizontal motion and vertical acceleration due to gravity"],
+    "answer": "The combination of horizontal motion and vertical acceleration due to gravity"
+  },
+  {
+    "id": 27,
+    "lessonId": 1,
+    "question": "At the peak (highest point) of a projectile's path, what is the vertical velocity?",
+    "choices": ["Maximum", "Zero", "Equal to horizontal velocity", "Same as initial vertical velocity"],
+    "answer": "Zero"
+  },
+  {
+    "id": 28,
+    "lessonId": 1,
+    "question": "What happens to the vertical velocity of a projectile as it rises?",
+    "choices": ["It increases", "It stays the same", "It decreases until it becomes zero", "It reverses direction"],
+    "answer": "It decreases until it becomes zero"
+  },
+  {
+    "id": 29,
+    "lessonId": 1,
+    "question": "When a projectile is launched at an angle, how are its horizontal and vertical motions related?",
+    "choices": ["They affect each other equally", "They are completely independent", "Only vertical motion changes", "Horizontal motion controls vertical motion"],
+    "answer": "They are completely independent"
+  },
+  {
+    "id": 30,
+    "lessonId": 1,
+    "question": "What is the total time a projectile spends in the air called?",
+    "choices": ["Period", "Range", "Time interval", "Time of flight"],
+    "answer": "Time of flight"
+  },
+  {
+    "id": 31,
+    "lessonId": 1,
+    "question": "A 3 kg ball is rolling at 2 m/s. What is its momentum?",
+    "choices": ["4 kg·m/s", "5 kg·m/s", "6 kg·m/s", "8 kg·m/s"],
+    "answer": "6 kg·m/s",
+    "computation": "p = 3 × 2 = 6 kg·m/s"
+  },
+  {
+    "id": 32,
+    "lessonId": 1,
+    "question": "An object has a momentum of 20 kg·m/s and is moving at 5 m/s. What is its mass?",
+    "choices": ["2 kg", "4 kg", "5 kg", "10 kg"],
+    "answer": "4 kg"
+  },
+  {
+    "id": 33,
+    "lessonId": 1,
+    "question": "A 0.2 kg baseball is thrown at 40 m/s. What is its momentum?",
+    "choices": ["6 kg·m/s", "8 kg·m/s", "10 kg·m/s", "12 kg·m/s"],
+    "answer": "8 kg·m/s",
+    "computation": "p = 0.2 × 40 = 8 kg·m/s"
+  },
+  {
+    "id": 34,
+    "lessonId": 1,
+    "question": "An object with a mass of 6 kg has a momentum of 30 kg·m/s. What is its velocity?",
+    "choices": ["3 m/s", "4 m/s", "5 m/s", "6 m/s"],
+    "answer": "5 m/s"
+  },
+  {
+    "id": 35,
+    "lessonId": 1,
+    "question": "Which has greater momentum?\n• Object A: 5 kg at 3 m/s\n• Object B: 3 kg at 5 m/s",
+    "choices": ["Object A", "Object B", "Both have equal momentum", "Not enough information"],
+    "answer": "Both have equal momentum",
+    "computation": "pA = 5×3 = 15, pB = 3×5 = 15"
+  },
+  {
+    "id": 36,
+    "lessonId": 1,
+    "question": "Which object has the greatest momentum?\nA: 2 kg at 10 m/s\nB: 4 kg at 5 m/s\nC: 3 kg at 8 m/s",
+    "choices": ["Object A", "Object B", "Object C", "All are equal"],
+    "answer": "Object C",
+    "computation": "pA = 20, pB = 20, pC = 24"
+  },
+  {
+    "id": 37,
+    "lessonId": 1,
+    "question": "What is the most important requirement to calculate the momentum of an object?",
+    "choices": ["Size of the object", "Shape of the object", "Mass and velocity of the object", "Location of the object"],
+    "answer": "Mass and velocity of the object"
+  },
+  {
+    "id": 38,
+    "lessonId": 1,
+    "question": "What does it mean if an object has zero momentum?",
+    "choices": ["It is heavy", "It is not moving or has zero velocity", "It is fast", "It is flying"],
+    "answer": "It is not moving or has zero velocity"
+  },
+  {
+    "id": 39,
+    "lessonId": 1,
+    "question": "Why is the 'conservation of momentum' an important concept during collisions?",
+    "choices": ["To find the weight of an object", "To predict the direction of heat flow", "To measure the total force involved", "To ensure total momentum is the same before and after a collision"],
+    "answer": "To ensure total momentum is the same before and after a collision"
+  },
+  {
+    "id": 40,
+    "lessonId": 1,
+    "question": "Which of the following proves that momentum is a vector quantity?",
+    "choices": ["It has direction", "It is measured with a ruler", "It has no unit", "It is the same as energy"],
+    "answer": "It has direction"
+  },
+  {
+    "id": 41,
+    "lessonId": 1,
+    "question": "What term refers to the product of an object's mass and velocity?",
+    "choices": ["Inertia", "Force", "Momentum", "Speed"],
+    "answer": "Momentum"
+  },
+  {
+    "id": 42,
+    "lessonId": 1,
+    "question": "Which term describes the change in momentum caused by a force acting over time?",
+    "choices": ["Velocity", "Impulse", "Acceleration", "Energy"],
+    "answer": "Impulse"
+  },
+  {
+    "id": 43,
+    "lessonId": 1,
+    "question": "What law states that the total momentum in a closed system remains constant during a collision?",
+    "choices": ["Law of Acceleration", "Law of Conservation of Momentum", "Law of Inertia", "Newton's Third Law"],
+    "answer": "Law of Conservation of Momentum"
+  },
+  {
+    "id": 44,
+    "lessonId": 1,
+    "question": "What quantity must have both magnitude and direction to affect momentum?",
+    "choices": ["Speed", "Velocity", "Distance", "Time"],
+    "answer": "Velocity"
+  },
+  {
+    "id": 45,
+    "lessonId": 1,
+    "question": "Which of the following is the correct SI unit for momentum?",
+    "choices": ["Newton", "Joule", "Kilogram meter per second (kg·m/s)", "Meter per second (m/s)"],
+    "answer": "Kilogram meter per second (kg·m/s)"
+  }
+]

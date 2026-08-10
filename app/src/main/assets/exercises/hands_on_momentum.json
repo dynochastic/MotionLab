@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Basic Momentum",
+    "question": "A 2 kg toy car is moving at 4 m/s. What is its momentum?",
+    "template": [
+      "p = m×v = __ × __",
+      "p = __ kg·m/s"
+    ],
+    "answers": [
+      { "blankIndex": 0, "value": "2" },
+      { "blankIndex": 1, "value": "4" },
+      { "blankIndex": 2, "value": "8" }
+    ],
+    "choices": ["2", "4", "8"],
+    "commutative": true
+  },
+  {
+    "id": 2,
+    "title": "Solving for Velocity",
+    "question": "A 3 kg cart has a momentum of 18 kg·m/s. What is its velocity?",
+    "template": [
+      "v = p/m = __ / __",
+      "v = __ m/s"
+    ],
+    "answers": [
+      { "blankIndex": 0, "value": "18" },
+      { "blankIndex": 1, "value": "3" },
+      { "blankIndex": 2, "value": "6" }
+    ],
+    "choices": ["18", "3", "6"],
+    "commutative": false
+  },
+  {
+    "id": 3,
+    "title": "Solving for Mass",
+    "question": "An object has a momentum of 24 kg·m/s and a velocity of 6 m/s. What is its mass?",
+    "template": [
+      "m = p/v = __ / __",
+      "m = __ kg"
+    ],
+    "answers": [
+      { "blankIndex": 0, "value": "24" },
+      { "blankIndex": 1, "value": "6" },
+      { "blankIndex": 2, "value": "4" }
+    ],
+    "choices": ["24", "6", "4"],
+    "commutative": false
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {"type": "text",
+    "content": "What is Uniformly Accelerated Motion?",
+    "style" : "HEADING",
+    "align" : "LEFT"
+  },
+  {
+    "type": "text",
+    "content":  "Uniformly accelerated motion happens when an object experiences a constant rate of acceleration.\n\nIn this type of motion, the object’s speed changes evenly over time either speeding up or slowing down like a car steadily increasing its speed or an object falling under gravity.",
+    "style" : "NORMAL",
+    "align": "JUSTIFY"
+  },
+  {
+    "type": "text",
+    "content": "\nExample:",
+    "style": "BOLD"
+  },
+  {
+    "type": "text",
+    "content": "A cyclist starts at a speed of 5 m/s and accelerates at 1.5 m/s² for 8 seconds. What is the final velocity of the cyclist?",
+    "style": "NORMAL"
+  },
+  {
+    "type": "text",
+    "content": "Given:\n\t\tu = 5 m/s\n\t\ta = 1.5 m/s²\n\t\tt = 8 seconds\n\t\tv = ?",
+    "style": "BOLD"
+  },
+  {
+    "type": "text",
+    "content": "Formula:",
+    "style": "BOLD"
+  },
+  {
+    "type": "formula",
+    "latex": "v = u + at"
+  },
+  {
+    "type": "text",
+    "content": "Where:\n\t\tv = Final Velocity (m/s)\n\t\tu = Initial Velocity (m/s)\n\t\ta = Acceleration (m/s²)\n\t\tt = Time (seconds)",
+    "style": "NORMAL"
+  },
+  {
+    "type": "text",
+    "content": "Plug in the values from the problem into the formula then solve:",
+    "style": "BOLD"
+  },
+  {
+    "type": "text",
+    "content": "\t\tv = 5 + (1.5)(8)\n\t\tv = 5 + 12\n\t\tv = 17 m/s",
+    "style": "NORMAL"
+  }
+]

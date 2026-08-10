@@ -1,0 +1,53 @@
+
+[
+  {"type": "text",
+    "content": "What is Power?",
+    "style" : "HEADING",
+    "align" : "LEFT"
+  },
+  {
+    "type": "text",
+    "content":  "Power is the rate at which work is done or energy is transferred over time.\n\nIt tells us how fast something can do work or use energy. Power works by dividing the amount of work done by the time it takes to do it.",
+    "style" : "NORMAL",
+    "align": "JUSTIFY"
+  },
+  {
+    "type": "text",
+    "content": "\nExample:",
+    "style": "BOLD"
+  },
+  {
+    "type": "text",
+    "content": "A student lifts a 100 N box to a height of 2 meters in 5 seconds. How much power did the student use?",
+    "style": "NORMAL"
+  },
+  {
+    "type": "text",
+    "content": "Given:\n\t\tF = 100 N\n\t\td = 2 m\n\t\tt = 5 s\n\t\tP = ?",
+    "style": "BOLD"
+  },
+  {
+    "type": "text",
+    "content": "Formula:",
+    "style": "BOLD"
+  },
+  {
+    "type": "formula",
+    "latex": "P = W / t = (F * d) / t"
+  },
+  {
+    "type": "text",
+    "content": "Where:\n\t\tP = Power (Watts)\n\t\tW = Work (Joules)\n\t\tt = Time (seconds)\n\t\tF = Force (Newtons)\n\t\td = Distance (meters)",
+    "style": "NORMAL"
+  },
+  {
+    "type": "text",
+    "content": "Plug in the values from the problem into the formula then solve:",
+    "style": "BOLD"
+  },
+  {
+    "type": "text",
+    "content": "\t\tP = (100 N × 2 m) / 5 s\n\t\tP = 200 J / 5 s\n\t\tP = 40 W",
+    "style": "NORMAL"
+  }
+]

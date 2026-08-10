@@ -1,0 +1,52 @@
+[
+  {"type": "text",
+    "content": "What is Newton's Second Law of Motion?",
+    "style" : "HEADING",
+    "align" : "LEFT"
+  },
+  {
+    "type": "text",
+    "content":  "The acceleration of an object is directly proportional to the force applied and inversely proportional to its mass.\n\nThe greater the force, the greater the acceleration of the object. The heavier the object (more mass), the harder it is to accelerate.",
+    "style" : "NORMAL",
+    "align": "JUSTIFY"
+  },
+  {
+    "type": "text",
+    "content": "\nExample:",
+    "style": "BOLD"
+  },
+  {
+    "type": "text",
+    "content": "A box has a mass of 10 kg. If a force of 50 N is applied to it, what is its acceleration?",
+    "style": "NORMAL"
+  },
+  {
+    "type": "text",
+    "content": "Given:\n\t\tm = 10 kg\n\t\tF = 50 N\n\t\ta = ?",
+    "style": "BOLD"
+  },
+  {
+    "type": "text",
+    "content": "Formula:",
+    "style": "BOLD"
+  },
+  {
+    "type": "formula",
+    "latex": "a = F / m"
+  },
+  {
+    "type": "text",
+    "content": "Where:\n\t\ta = Acceleration (m/s²)\n\t\tF = Force (Newtons)\n\t\tm = Mass (kg)",
+    "style": "NORMAL"
+  },
+  {
+    "type": "text",
+    "content": "Plug in the values from the problem into the formula then solve:",
+    "style": "BOLD"
+  },
+  {
+    "type": "text",
+    "content": "\t\ta = 50 N / 10 kg\n\t\ta = 5 m/s²",
+    "style": "NORMAL"
+  }
+]

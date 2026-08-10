@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Work Done by Pushing a Box",
+    "question": "A person pushes a box with a force of 10 N over a distance of 5 meters. What is the work done?",
+    "template": [
+      "W = F × d = __ × __",
+      "W = __ J"
+    ],
+    "answers": [
+      { "blankIndex": 0, "value": "10" },
+      { "blankIndex": 1, "value": "5" },
+      { "blankIndex": 2, "value": "50" }
+    ],
+    "choices": ["10", "5", "50"],
+    "commutative": true
+  },
+  {
+    "id": 2,
+    "title": "Work Done by Pulling a Cart",
+    "question": "A cart is pulled with a force of 25 N for 3 meters in the same direction. Compute the work.",
+    "template": [
+      "W = F × d = __ × __",
+      "W = __ J"
+    ],
+    "answers": [
+      { "blankIndex": 0, "value": "25" },
+      { "blankIndex": 1, "value": "3" },
+      { "blankIndex": 2, "value": "75" }
+    ],
+    "choices": ["25", "3", "75"],
+    "commutative": true
+  },
+  {
+    "id": 3,
+    "title": "Work Done by Lifting a Box",
+    "question": "A woman lifts a box vertically upward with a force of 60 N to a height of 2 meters. Compute the work.",
+    "template": [
+      "W = F × d = __ × __",
+      "W = __ J"
+    ],
+    "answers": [
+      { "blankIndex": 0, "value": "60" },
+      { "blankIndex": 1, "value": "2" },
+      { "blankIndex": 2, "value": "120" }
+    ],
+    "choices": ["60", "2", "120"],
+    "commutative": true
+  }
+]

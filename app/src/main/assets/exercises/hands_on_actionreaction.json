@@ -1,0 +1,63 @@
+
+[
+  {
+    "id": 1,
+    "title": "Bullet and Recoil Force",
+    "question": "A bullet with mass 0.02 kg is fired with an acceleration of 1,000 m/s². What is the force on the bullet and the recoil force on the gun?",
+    "template": [
+      "F = m × a = __ × __",
+      "F = __ N",
+      "Action: Bullet Force = __ N forward",
+      "Reaction: Recoil Force = __ N backward"
+    ],
+    "answers": [
+      { "blankIndex": 0, "value": "0.02" },
+      { "blankIndex": 1, "value": "1000" },
+      { "blankIndex": 2, "value": "20" },
+      { "blankIndex": 3, "value": "20" },
+      { "blankIndex": 4, "value": "20" }
+    ],
+    "choices": ["0.02", "1000", "20", "20", "20"],
+    "commutative": false
+  },
+  {
+    "id": 2,
+    "title": "Weight and Reaction Force",
+    "question": "A person with a mass of 50 kg sits on a chair. What is the weight of the person and the reaction force from the chair?",
+    "template": [
+      "W = m × g = __ × __",
+      "W = __ N",
+      "Action: Weight = __ N downward",
+      "Reaction: Normal Force = __ N upward"
+    ],
+    "answers": [
+      { "blankIndex": 0, "value": "50" },
+      { "blankIndex": 1, "value": "9.8" },
+      { "blankIndex": 2, "value": "490" },
+      { "blankIndex": 3, "value": "490" },
+      { "blankIndex": 4, "value": "490" }
+    ],
+    "choices": ["50", "9.8", "490", "490", "490"],
+    "commutative": false
+  },
+  {
+    "id": 3,
+    "title": "Skater Push and Reaction",
+    "question": "Two skaters push off from each other. Skater A has a mass of 40 kg and accelerates at 2.5 m/s². What is the force applied, and what is the reaction force?",
+    "template": [
+      "F = m × a = __ × __",
+      "F = __ N",
+      "Action: Skater A Force = __ N",
+      "Reaction: Skater B Force = __ N (opposite direction)"
+    ],
+    "answers": [
+      { "blankIndex": 0, "value": "40" },
+      { "blankIndex": 1, "value": "2.5" },
+      { "blankIndex": 2, "value": "100" },
+      { "blankIndex": 3, "value": "100" },
+      { "blankIndex": 4, "value": "100" }
+    ],
+    "choices": ["40", "2.5", "100", "100", "100"],
+    "commutative": false
+  }
+]

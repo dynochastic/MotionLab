@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MotionLab</string>
+    <string name="unity_activity_label">Unity</string>
+    
+    <!-- Unity required string resources -->
+    <string name="unity_splash_screen">Loading...</string>
+    <string name="unity_loading">Loading Unity...</string>
+    <string name="unity_error">Unity Error</string>
+    <string name="unity_ok">OK</string>
+    <string name="unity_cancel">Cancel</string>
+    <string name="unity_retry">Retry</string>
+    <string name="unity_quit">Quit</string>
+    <string name="unity_continue">Continue</string>
+    <string name="unity_back">Back</string>
+    <string name="unity_next">Next</string>
+    <string name="unity_finish">Finish</string>
+    <string name="unity_yes">Yes</string>
+    <string name="unity_no">No</string>
+    <string name="unity_loading_progress">Loading: %1$d%%</string>
+    <string name="unity_loading_complete">Loading Complete</string>
+    <string name="unity_loading_failed">Loading Failed</string>
+    <string name="unity_network_error">Network Error</string>
+    <string name="unity_permission_denied">Permission Denied</string>
+    <string name="unity_storage_full">Storage Full</string>
+    <string name="unity_unknown_error">Unknown Error</string>
+    
+    <!-- Additional Unity required resources -->
+    <string name="unity_loading_title">Loading</string>
+    <string name="unity_loading_message">Please wait...</string>
+    <string name="unity_error_title">Error</string>
+    <string name="unity_error_message">An error occurred</string>
+    <string name="unity_retry_button">Retry</string>
+    <string name="unity_cancel_button">Cancel</string>
+    <string name="unity_ok_button">OK</string>
+    <string name="unity_yes_button">Yes</string>
+    <string name="unity_no_button">No</string>
+    <string name="unity_loading_progress_format">Loading: %d%%</string>
+    <string name="unity_loading_complete_message">Loading Complete</string>
+    <string name="unity_loading_failed_message">Loading Failed</string>
+    <string name="unity_network_error_message">Network Error</string>
+    <string name="unity_permission_denied_message">Permission Denied</string>
+    <string name="unity_storage_full_message">Storage Full</string>
+    <string name="unity_unknown_error_message">Unknown Error</string>
+    <string name="unity_splash_title">Unity</string>
+    <string name="unity_splash_message">Starting Unity...</string>
+    <string name="unity_initializing">Initializing...</string>
+    <string name="unity_ready">Ready</string>
+    <string name="unity_starting">Starting...</string>
+    <string name="unity_stopping">Stopping...</string>
+    <string name="unity_paused">Paused</string>
+    <string name="unity_resumed">Resumed</string>
+    <string name="unity_destroyed">Destroyed</string>
+    <string name="unity_created">Created</string>
+    <string name="unity_started">Started</string>
+    <string name="unity_stopped">Stopped</string>
+    <string name="unity_restarted">Restarted</string>
+    <string name="unity_updated">Updated</string>
+    <string name="unity_configured">Configured</string>
+    <string name="unity_initialized">Initialized</string>
+    <string name="unity_finalized">Finalized</string>
+    <string name="unity_terminated">Terminated</string>
+    <string name="unity_shutdown">Shutdown</string>
+    <string name="unity_restart">Restart</string>
+    <string name="unity_resume">Resume</string>
+    <string name="unity_pause">Pause</string>
+    <string name="unity_stop">Stop</string>
+    <string name="unity_start">Start</string>
+    <string name="unity_create">Create</string>
+    <string name="unity_destroy">Destroy</string>
+    <string name="unity_update">Update</string>
+    <string name="unity_configure">Configure</string>
+    <string name="unity_initialize">Initialize</string>
+    <string name="unity_finalize">Finalize</string>
+    <string name="unity_terminate">Terminate</string>
+    <string name="unity_shutdown_button">Shutdown</string>
+    <string name="unity_restart_button">Restart</string>
+    <string name="unity_resume_button">Resume</string>
+    <string name="unity_pause_button">Pause</string>
+    <string name="unity_stop_button">Stop</string>
+    <string name="unity_start_button">Start</string>
+    <string name="unity_create_button">Create</string>
+    <string name="unity_destroy_button">Destroy</string>
+    <string name="unity_update_button">Update</string>
+    <string name="unity_configure_button">Configure</string>
+    <string name="unity_initialize_button">Initialize</string>
+    <string name="unity_finalize_button">Finalize</string>
+    <string name="unity_terminate_button">Terminate</string>
+    
+    <!-- Critical Unity string resource that prevents Resource ID #0x0 error -->
+    <string name="game_view_content_description" translatable="false">Game view</string>
+</resources>

@@ -1,0 +1,52 @@
+[
+  {"type": "text",
+    "content": "What is Energy?",
+    "style" : "HEADING",
+    "align" : "LEFT"
+  },
+  {
+    "type": "text",
+    "content":  "Energy is the ability of an object to do work or cause change. It exists in many forms such as motion, position, heat, or chemical bonds.\n\nEnergy can be stored or transferred, but it is never created or destroyed, it just changes form.",
+    "style" : "NORMAL",
+    "align": "JUSTIFY"
+  },
+  {
+    "type": "text",
+    "content": "\nExample:",
+    "style": "BOLD"
+  },
+  {
+    "type": "text",
+    "content": "A 2 kg ball is dropped from a height of 10 meters. What is its kinetic energy just before it hits the ground?",
+    "style": "NORMAL"
+  },
+  {
+    "type": "text",
+    "content": "Given:\n\t\tm = 2 kg\n\t\th = 10 m\n\t\tg = 9.8 m/s²\n\t\tKE = ?",
+    "style": "BOLD"
+  },
+  {
+    "type": "text",
+    "content": "Formula:",
+    "style": "BOLD"
+  },
+  {
+    "type": "formula",
+    "latex": "KE = 1/2 * m * v^2"
+  },
+  {
+    "type": "text",
+    "content": "Where:\n\t\tKE = Kinetic Energy (Joules)\n\t\tm = Mass (kg)\n\t\tv = Velocity (m/s)",
+    "style": "NORMAL"
+  },
+  {
+    "type": "text",
+    "content": "First, find velocity using v² = 2gh, then plug into KE formula:",
+    "style": "BOLD"
+  },
+  {
+    "type": "text",
+    "content": "\t\tv² = 2gh = 2(9.8)(10) = 196\n\t\tv = 14 m/s\n\t\tKE = ½(2)(14)² = ½(2)(196) = 196 J",
+    "style": "NORMAL"
+  }
+]

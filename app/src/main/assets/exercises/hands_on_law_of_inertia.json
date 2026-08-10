@@ -1,0 +1,63 @@
+  [
+    {
+      "id": 1,
+      "title": "Inertia of a Moving Car",
+      "question": "A car is moving at 20 m/s when the driver suddenly applies the brakes. The car takes 4 seconds to come to a complete stop. What is the car's deceleration?",
+      "template": [
+        "a = ( __ − __ ) / __",
+        "a = ( __ ) / __",
+        "a = __ m/s²"
+      ],
+      "answers": [
+        { "blankIndex": 0, "value": "0" },
+        { "blankIndex": 1, "value": "20" },
+        { "blankIndex": 2, "value": "4" },
+        { "blankIndex": 3, "value": "-20" },
+        { "blankIndex": 4, "value": "4" },
+        { "blankIndex": 5, "value": "-5" }
+      ],
+      "choices": ["0", "20", "4", "-20", "-5", "4", "10", "40"],
+      "commutative": false
+    },
+    {
+      "id": 2,
+      "title": "Inertia and Mass",
+      "question": "Two objects have the same force applied to them. Object A has a mass of 2 kg and Object B has a mass of 8 kg. Which object will have greater acceleration?",
+      "template": [
+        "a = F/m",
+        "Object A: a = F / __ = __ F",
+        "Object B: a = F / __ = __ F",
+        "Object __ has greater acceleration"
+      ],
+      "answers": [
+        { "blankIndex": 0, "value": "2" },
+        { "blankIndex": 1, "value": "0.5" },
+        { "blankIndex": 2, "value": "8" },
+        { "blankIndex": 3, "value": "0.125" },
+        { "blankIndex": 4, "value": "A" }
+      ],
+      "choices": ["2", "8", "0.5", "0.125", "A", "B"],
+      "commutative": false
+    },
+    {
+      "id": 3,
+      "title": "Inertia in Circular Motion",
+      "question": "A ball is swung in a circle at constant speed. The ball wants to move in a straight line due to inertia, but the string provides a centripetal force. If the ball has a mass of 0.5 kg and moves at 3 m/s in a circle of radius 1.5 m, what is the centripetal force?",
+      "template": [
+        "F = m×v²/r = __ × __ ² / __",
+        "F = __ × __ / __",
+        "F = __ N"
+      ],
+      "answers": [
+        { "blankIndex": 0, "value": "0.5" },
+        { "blankIndex": 1, "value": "3" },
+        { "blankIndex": 2, "value": "1.5" },
+        { "blankIndex": 3, "value": "0.5" },
+        { "blankIndex": 4, "value": "9" },
+        { "blankIndex": 5, "value": "1.5" },
+        { "blankIndex": 6, "value": "3" }
+      ],
+      "choices": ["0.5", "3", "1.5", "9", "3", "1.5" ,"0.5"],
+      "commutative": false
+    }
+  ]

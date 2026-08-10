@@ -1,0 +1,52 @@
+[
+  {"type": "text",
+    "content": "What is Projectile Motion?",
+    "style" : "HEADING",
+    "align" : "LEFT"
+  },
+  {
+    "type": "text",
+    "content":  "Projectile motion describes the arc-shaped path of an object launched into the air, moving under the influence of gravity alone, while air resistance is often ignored.\n\nThe motion consists of two independent parts: horizontal and vertical. This type of motion creates a parabolic curve, similar to the flight of a ball or the launch of a cannonball.",
+    "style" : "NORMAL",
+    "align": "JUSTIFY"
+  },
+  {
+    "type": "text",
+    "content": "\nExample:",
+    "style": "BOLD"
+  },
+  {
+    "type": "text",
+    "content": "A ball is launched with a speed of 20 m/s at an angle of 30° above the horizontal. Find the maximum height reached.",
+    "style": "NORMAL"
+  },
+  {
+    "type": "text",
+    "content": "Given:\n\t\tv = 20 m/s\n\t\tθ = 30°\n\t\tg = 9.8 m/s²\n\t\tH = ?",
+    "style": "BOLD"
+  },
+  {
+    "type": "text",
+    "content": "Formula:",
+    "style": "BOLD"
+  },
+  {
+    "type": "formula",
+    "latex": "H = (v * sin(theta))^2 / (2 * g)"
+  },
+  {
+    "type": "text",
+    "content": "Where:\n\t\tH = Maximum Height (meters)\n\t\tv = Initial Velocity (m/s)\n\t\tθ = Launch Angle (degrees)\n\t\tg = Acceleration due to gravity (9.8 m/s²)",
+    "style": "NORMAL"
+  },
+  {
+    "type": "text",
+    "content": "Plug in the values from the problem into the formula then solve:",
+    "style": "BOLD"
+  },
+  {
+    "type": "text",
+    "content": "\t\tv_y = 20 sin(30°) = 20 × 0.5 = 10 m/s\n\t\tH = (10)² / (2 × 9.8)\n\t\tH = 100 / 19.6 = 5.10 m",
+    "style": "NORMAL"
+  }
+] 

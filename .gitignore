@@ -1,0 +1,28 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/modules/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Build directories
+**/build/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Cursor IDE temporary files
+assets/c__Users_Christian_AppData_Roaming_Cursor_User_workspaceStorage_*/

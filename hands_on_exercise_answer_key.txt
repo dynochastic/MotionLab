@@ -1,0 +1,119 @@
+HANDS-ON EXERCISE ANSWER KEY
+============================
+
+MECHANICS
+---------
+
+Uniformly Accelerated Motion (UAM)
+
+1. A car accelerates from rest to 20 m/s in 5 seconds. What is its acceleration? [20, 0, 5, 20, 5, 4}
+
+2. A car starts at 10 m/s and accelerates at 2 m/s² for 4 seconds. What is its final velocity? [10, 2, 4, 10, 8, 18}
+
+3. A motorcycle speeds up from 5 m/s to 25 m/s in 8 seconds. What is its acceleration? [25, 5, 8, 20, 8, 2.5}
+
+4. A car starts from rest and accelerates uniformly at 3 m/s² for 8 seconds. Find its final velocity. [0, 3, 8, 0, 24, 24}
+
+5. A motorcycle moves with an initial velocity of 10 m/s and accelerates at 2 m/s² for 6 seconds. Find the total distance traveled. [10, 6, 2, 6, 60, 2, 36, 60, 36, 96}
+
+Projectile Motion
+
+6. A ball rolls off a 20-meter high cliff with a horizontal speed of 5 m/s. Find the time before it hits the ground using vertical motion. [20, 9.8, 40, 9.8, 4.08, 2.02}
+
+7. A ball is launched horizontally from a 20 m high cliff with a speed of 5 m/s. How far will it travel horizontally before hitting the ground? (Use g = 9.8 m/s²) [20, 9.8, 40, 9.8, 4.08, 2.02, 5, 2.02, 10.1}
+
+8. A projectile is launched at 25 m/s at a 40° angle from the ground. Determine the total time of flight before it lands. [25, 40, 16.07, 16.07, 9.8, 32.14, 9.8, 3.28}
+
+9. A projectile is launched at 25 m/s at a 40° angle. Find the maximum height it reaches. (Use g = 9.8 m/s²) [25, 40, 25, 0.643, 16.07, 16.07, 9.8, 258.2, 19.6, 13.18}
+
+10. A ball is thrown upward with an initial velocity of 20 m/s at an angle of 60°. Find the maximum height it reaches. (Use g = 9.8 m/s²) [20, 60, 9.8, 400, 0.75, 19.6, 300, 19.6, 15.3}
+
+11. A projectile is launched at a speed of 30 m/s at an angle of 45°. Find the horizontal range. (Use g = 9.8 m/s²) [30, 90, 9.8, 900, 1, 9.8, 900, 9.8, 91.8}
+
+Momentum
+
+12. A 2 kg toy car is moving at 4 m/s. What is its momentum? [2, 4, 8}
+
+13. A 3 kg cart has a momentum of 18 kg·m/s. What is its velocity? [18, 3, 6}
+
+14. An object has a momentum of 24 kg·m/s and a velocity of 6 m/s. What is its mass? [24, 6, 4}
+
+15. A 2 kg ball is moving with a velocity of 15 m/s. Find its momentum. [2, 15, 30}
+
+16. A 3 kg cart moving at 4 m/s collides and sticks to a 2 kg cart at rest. Find their common velocity after collision. [3, 4, 2, 0, 3, 2, 12, 0, 5, 12, 5, 2.4}
+
+
+NEWTON'S LAWS OF MOTION
+-----------------------
+
+Law of Inertia
+
+17. A car is moving at 20 m/s when the driver suddenly applies the brakes. The car takes 4 seconds to come to a complete stop. What is the car's deceleration? [0, 20, 4, -20, 4, -5}
+
+18. Two objects have the same force applied to them. Object A has a mass of 2 kg and Object B has a mass of 8 kg. Which object will have greater acceleration? [2, 0.5, 8, 0.125, A}
+
+19. A ball is swung in a circle at constant speed. The ball wants to move in a straight line due to inertia, but the string provides a centripetal force. If the ball has a mass of 0.5 kg and moves at 3 m/s in a circle of radius 1.5 m, what is the centripetal force? [0.5, 3, 1.5, 0.5, 9, 1.5, 3}
+
+20. A book with a mass of 2 kg rests on a table. The book remains still because forces are balanced. What is the normal force provided by the table? (Use g = 9.8 m/s²) [2, 9.8, 19.6, 19.6}
+
+21. A soccer ball with a mass of 0.5 kg is kicked and moves at 5 m/s on a smooth surface. Friction causes it to stop in 2 seconds. What is the frictional force that stops the ball? [0, 5, 2, -5, 2, -2.5, 0.5, -2.5, -1.25}
+
+Force = Mass x Acceleration
+
+22. You push a box with a force of 60 N, and the box has a mass of 15 kg. What is the acceleration? [60, 15, 4}
+
+23. A box is pushed with a force of 80 N, but there's friction opposing with 20 N. The box has a mass of 12 kg. What is the acceleration? [80, 20, 60, 12, 5}
+
+24. A net force of 36 N causes an object to accelerate at 4 m/s². What is the object's mass? [36, 4, 9}
+
+25. A 10 kg box is pushed and accelerates at 2 m/s². Find the force applied on the box. [10, 2, 20}
+
+26. A net force of 50 N acts on a 25 kg object. Find the acceleration produced. [50, 25, 2}
+
+Action-Reaction
+
+27. A bullet with mass 0.02 kg is fired with an acceleration of 1,000 m/s². What is the force on the bullet and the recoil force on the gun? [0.02, 1000, 20, 20, 20}
+
+28. A person with a mass of 50 kg sits on a chair. What is the weight of the person and the reaction force from the chair? [50, 9.8, 490, 490, 490}
+
+29. Two skaters push off from each other. Skater A has a mass of 40 kg and accelerates at 2.5 m/s². What is the force applied, and what is the reaction force? [40, 2.5, 100, 100, 100}
+
+
+WORK, POWER, & ENERGY
+---------------------
+
+Work
+
+30. A person pushes a box with a force of 10 N over a distance of 5 meters. What is the work done? [10, 5, 50}
+
+31. A cart is pulled with a force of 25 N for 3 meters in the same direction. Compute the work. [25, 3, 75}
+
+32. A woman lifts a box vertically upward with a force of 60 N to a height of 2 meters. Compute the work. [60, 2, 120}
+
+33. A person pushes a box with a force of 50 N over a distance of 4 meters in the same direction. Find the work done on the box. [50, 4, 200}
+
+34. A worker pulls a cart using a force of 100 N at an angle of 30° to the horizontal, moving it 5 meters. Find the work done. [100, 5, 30, 100, 5, 0.866, 433}
+
+Power
+
+35. A girl lifts a 200 N box to a height of 1.5 meters in 3 seconds. Find the power. [200, 1.5, 300, 300, 3, 100}
+
+36. A machine uses 500 J of energy in 10 seconds. What is its power? [500, 10, 50}
+
+37. A motor lifts a 50 N weight to 6 meters in 2 seconds. How much power is used? [50, 6, 300, 300, 2, 150}
+
+38. A motor does 600 J of work in 3 seconds. Find its power output. [600, 3, 200}
+
+39. A machine pulls a load with a constant force of 300 N at a constant speed of 2 m/s. Find the power developed. [300, 2, 600}
+
+Energy
+
+40. How much gravitational potential energy does a car gain if a crane lifts the car (1,500 kg) 20 m straight up? [1500, 9.8, 20, 294000}
+
+41. A basketball of mass 0.0400 kg is dropped from 5.00 m. How much potential energy does it lose? [0.0400, 9.8, 5.00, 1.96}
+
+42. A basketball (0.0400 kg) bounces back to a height of 3.00 m. How much potential energy does it regain? [0.0400, 9.8, 3.00, 1.18}
+
+43. A 5 kg object is lifted to a height of 10 meters. Find its potential energy. (Use g = 9.8 m/s²) [5, 9.8, 10, 490}
+
+44. A car of mass 800 kg is moving at a speed of 15 m/s. Find its kinetic energy. [800, 15, 800, 225, 400, 225, 90000}

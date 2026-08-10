@@ -1,0 +1,488 @@
+================================================================================
+UNITY LIBRARY INTEGRATION - COMPLETE CONFIGURATION GUIDE
+================================================================================
+This document contains all necessary configurations for integrating Unity library
+into the Android Studio project. Apply these settings after every Unity reimport.
+
+================================================================================
+1. UNITY LIBRARY BUILD.GRADLE (unityLibrary/build.gradle)
+================================================================================
+
+CRITICAL CONFIGURATIONS:
+------------------------
+✓ Use Android Studio NDK (DO NOT set custom ndkPath - let Gradle use Android Studio's NDK)
+✓ ndkVersion: "29.0.14033849" (must match app/build.gradle.kts)
+✓ Remove any buildToolsVersion override
+✓ Define ext.unityStreamingAssets = "" BEFORE the android {} block
+✓ aaptOptions.noCompress: Must use project.ext.unityStreamingAssets.tokenize(', ')
+✓ packagingOptions: doNotStrip '*/arm64-v8a/*.so' + jniLibs.useLegacyPackaging = true
+✓ IL2CPP task: Environment variables ANDROID_SDK_ROOT and ANDROID_NDK_ROOT must be set
+✓ sourceSets.main.jni.srcDirs = ["src/main/Il2CppOutputProject"]
+
+REQUIRED CODE STRUCTURE:
+------------------------
+1. Top-level dependencies:
+   dependencies {
+       implementation fileTree(dir: 'libs', include: ['*.jar'])
+       implementation project('mobilenotifications.androidlib')
+   }
+
+2. Define streaming assets (BEFORE android {} block):
+   ext.unityStreamingAssets = ""
+
+3. Android block:
+   android {
+       namespace "com.unity3d.player"
+       compileSdkVersion 35
+       ndkVersion "29.0.14033849"
+       
+       compileOptions {
+           sourceCompatibility JavaVersion.VERSION_11
+           targetCompatibility JavaVersion.VERSION_11
+       }
+       
+       defaultConfig {
+           minSdkVersion 26
+           targetSdkVersion 35
+           ndk {
+               abiFilters 'arm64-v8a'
+           }
+           versionCode 1
+           versionName '1.0.2'
+           consumerProguardFiles 'proguard-unity.txt'
+       }
+       
+       lintOptions {
+           abortOnError false
+       }
+       
+       aaptOptions {
+           noCompress = ['.unity3d', '.ress', '.resource', '.obb', '.bundle', '.unityexp'] + 
+                        project.ext.unityStreamingAssets.tokenize(', ')
+           ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:!CVS:!thumbs.db:!picasa.ini:!*~"
+       }
+       
+       packagingOptions {
+           doNotStrip '*/arm64-v8a/*.so'
+           jniLibs {
+               useLegacyPackaging true
+           }
+       }
+   }
+
+4. IL2CPP Build Function (CRITICAL):
+   - Executable path: src/main/Il2CppOutputProject/IL2CPP/build/deploy/il2cpp(.exe)
+   - MUST NOT include netcoreapp3.1 in path
+   - Environment variables:
+     * ANDROID_SDK_ROOT = getSdkDir() (from local.properties)
+     * ANDROID_NDK_ROOT = android.ndkDirectory
+   - Command line args must include:
+     * --compile-cpp
+     * --platform=Android
+     * --architecture=arm64
+     * --outputpath=.../jniLibs/arm64-v8a/libil2cpp.so
+     * --baselib-directory=.../jniStaticLibs/arm64-v8a
+     * --configuration=Release
+     * --dotnetprofile=unityaot-linux
+     * --tool-chain-path=android.ndkDirectory
+
+5. IL2CPP Task Hook:
+   afterEvaluate {
+       if (project(':unityLibrary').tasks.findByName('mergeDebugJniLibFolders'))
+           project(':unityLibrary').mergeDebugJniLibFolders.dependsOn BuildIl2CppTask
+       if (project(':unityLibrary').tasks.findByName('mergeReleaseJniLibFolders'))
+           project(':unityLibrary').mergeReleaseJniLibFolders.dependsOn BuildIl2CppTask
+   }
+
+6. Source Sets:
+   sourceSets {
+       main {
+           jni.srcDirs = ["src/main/Il2CppOutputProject"]
+       }
+   }
+
+================================================================================
+2. APP BUILD.GRADLE.KTS (app/build.gradle.kts)
+================================================================================
+
+REQUIRED CONFIGURATIONS:
+------------------------
+✓ android.ndkVersion = "29.0.14033849" (must match unityLibrary)
+✓ packaging.jniLibs.useLegacyPackaging = true
+✓ implementation(project(":unityLibrary")) in dependencies
+
+CODE:
+-----
+android {
+    namespace = "com.example.motionlab"
+    compileSdk = 35
+    ndkVersion = "29.0.14033849"
+    
+    packaging {
+        jniLibs {
+            useLegacyPackaging = true
+        }
+    }
+}
+
+dependencies {
+    implementation(project(":unityLibrary"))
+    // ... other dependencies
+}
+
+================================================================================
+3. STRINGS.XML RESOURCES (CRITICAL FOR PREVENTING CRASHES)
+================================================================================
+
+UNITY LIBRARY (unityLibrary/src/main/res/values/strings.xml):
+-------------------------------------------------------------
+REQUIRED - Must contain at minimum:
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="game_view_content_description" translatable="false">Game view</string>
+</resources>
+
+APP (app/src/main/res/values/strings.xml):
+-------------------------------------------
+REQUIRED - Must contain:
+<string name="game_view_content_description" translatable="false">Game view</string>
+
+NOTE: If Resources$NotFoundException occurs, verify both strings.xml files contain
+      this string resource. This is Unity's expected resource.
+
+================================================================================
+4. ANDROID MANIFEST (app/src/main/AndroidManifest.xml)
+================================================================================
+
+UNITY BRIDGE ACTIVITY (PRIMARY):
+--------------------------------
+<activity
+    android:name="com.example.motionlab.ui.screens.simulation.UnityBridgeActivity"
+    android:exported="true"
+    android:label="Unity Bridge"
+    android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+    android:screenOrientation="userLandscape"
+    android:launchMode="standard"
+    android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+    android:resizeableActivity="false"
+    android:hardwareAccelerated="true"
+    android:noHistory="false">
+</activity>
+
+UNITY PLAYER ACTIVITY (Unity's internal activity):
+--------------------------------------------------
+<activity
+    android:name="com.unity3d.player.UnityPlayerActivity"
+    android:exported="false"
+    tools:replace="android:exported,android:launchMode,android:theme"
+    tools:node="replace"
+    android:label="Unity"
+    android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+    android:screenOrientation="userLandscape"
+    android:launchMode="standard"
+    android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+    android:resizeableActivity="false"
+    android:hardwareAccelerated="true"
+    android:noHistory="false"
+    android:process=":Unity">
+    <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
+</activity>
+
+APPLICATION TAG:
+----------------
+<application
+    ...
+    android:extractNativeLibs="true">
+    ...
+</application>
+
+CRITICAL NOTES:
+---------------
+- UnityBridgeActivity: exported=true, launchMode=standard, noHistory=false
+- UnityPlayerActivity: exported=false, launchMode=standard, noHistory=false, process=":Unity"
+- tools:replace is required for UnityPlayerActivity to override Unity's defaults
+- extractNativeLibs="true" is required for Unity native libraries
+
+================================================================================
+5. UNITY BRIDGE ACTIVITY (UnityBridgeActivity.kt)
+================================================================================
+
+KEY REQUIREMENTS:
+-----------------
+✓ Launch UnityPlayerActivity via startActivityForResult(requestCode=2001)
+✓ Set RESULT_OK BEFORE calling finish() - NEVER use postDelayed()
+✓ Always include unity_success=true in result intent extras
+✓ Handle onActivityResult, onBackPressed, and finish() methods
+✓ Implement onLowMemory() and onTrimMemory() for memory management
+✓ Initialize UnityDebugLogger and UnityCrashFixer in onCreate()
+
+CRITICAL CODE PATTERNS:
+-----------------------
+1. onCreate():
+   - Initialize logging and crash fixes
+   - Set result intent with RESULT_OK BEFORE launching Unity
+   - Launch Unity via startActivityForResult()
+
+2. onActivityResult():
+   - Create result intent with unity_finished=true, unity_success=true
+   - Set RESULT_OK immediately
+   - Call finish() immediately (NO DELAYS)
+
+3. onBackPressed():
+   - Create result intent with unity_back_pressed=true, unity_success=true
+   - Set RESULT_OK immediately
+   - Call finish() immediately (NO DELAYS)
+
+4. finish():
+   - Always set RESULT_OK with result intent before calling super.finish()
+   - Include unity_success=true in extras
+
+5. Memory Management:
+   - onLowMemory(): Call System.gc()
+   - onTrimMemory(): Handle TRIM_MEMORY_RUNNING_* levels
+
+IMPORTANT: Removing postDelayed() calls was critical to prevent app quit/restart
+           issues. Always set result and finish immediately.
+
+================================================================================
+6. UNITY C# SCRIPT INTEGRATION (Back_Button_Handler_Improved.cs)
+================================================================================
+
+REQUIRED FUNCTIONALITY:
+-----------------------
+The C# script should call Android bridge methods:
+- returnToAndroid(): Calls UnityBridgeActivity.returnToAndroid()
+- returnToAndroidHome(): Calls UnityBridgeActivity.returnToAndroidHome()
+
+ANDROID BRIDGE METHODS (exposed to Unity):
+------------------------------------------
+UnityBridgeActivity.kt exposes these methods:
+- returnToAndroid(): Triggers onBackPressed() to return to Compose
+- returnToAndroidHome(): Moves app to background (home screen)
+
+NOTE: The C# script itself is not modified - only the Android bridge methods
+      are provided for the script to call.
+
+================================================================================
+7. WIRELESS DEBUGGING TIMEOUT FIXES
+================================================================================
+
+PROBLEM:
+--------
+When using wireless debugging, Android Studio times out after ~3 minutes while
+waiting for the Unity app to start. This happens because:
+- Unity IL2CPP compilation and native library extraction takes longer over WiFi
+- Unity runs in a separate process (:Unity) which takes additional time to start
+- Wireless debugging has higher latency than USB/AVD connections
+- Android Studio's default timeout (300000ms = 5 minutes) may not be enough
+
+SOLUTION - ANDROID STUDIO SETTINGS:
+------------------------------------
+1. File > Settings > Build, Execution, Deployment > Deployment
+   - Install Timeout (ms): 900000 (15 minutes)
+   - Launch Timeout (ms): 900000 (15 minutes)
+   - Uncheck "Deploy as Instant App"
+   - Check "Uninstall before launching" (optional, but helps avoid conflicts)
+
+2. Alternative: Use "Do not launch Activity" option
+   - Run > Edit Configurations > General tab
+   - Launch: "Nothing" or "Do not launch Activity"
+   - After build completes, manually open app from device launcher
+   - Then attach debugger: Run > Attach debugger to Android process
+
+3. For wireless debugging stability:
+   - Ensure device and computer are on same WiFi network (prefer 5GHz)
+   - Disable VPN/Private DNS if active
+   - Keep device screen awake during deployment
+   - In Developer options: "Wait for debugger" = OFF
+   - Re-pair wireless debugging if connection is unstable
+
+SOLUTION - GRADLE BUILD OPTIMIZATION:
+-------------------------------------
+1. Use incremental builds (already enabled in IL2CPP task)
+2. Build only for arm64-v8a (already configured)
+3. Use Release configuration for IL2CPP (faster than Debug)
+
+SOLUTION - INSTALL-ONLY APPROACH:
+----------------------------------
+Instead of "Run" (which waits for app launch), use:
+1. Build > Build Bundle(s) / APK(s) > Build APK(s)
+2. Install APK manually via: adb install app/build/outputs/apk/debug/app-debug.apk
+3. Launch app manually from device
+4. Attach debugger if needed
+
+ADB COMMANDS FOR WIRELESS DEBUGGING:
+-------------------------------------
+# Connect to wireless device
+adb connect <device_ip>:<port>
+
+# Check connection
+adb devices
+
+# Install APK
+adb install -r app/build/outputs/apk/debug/app-debug.apk
+
+# Launch app
+adb shell am start -n com.example.motionlab/.MainActivity
+
+# View logs
+adb logcat | grep -E "Unity|MotionLab|UnityBridge"
+
+# Kill ADB server if issues
+adb kill-server
+adb start-server
+
+================================================================================
+8. VERIFICATION CHECKLIST (After Reimport)
+================================================================================
+
+BUILD VERIFICATION:
+-------------------
+[ ] Run: ./gradlew :unityLibrary:assembleDebug
+[ ] Verify: unityLibrary/build/intermediates/merged_native_libs/debug/out/lib/arm64-v8a/
+            contains libil2cpp.so
+[ ] Verify: No build errors related to:
+    - NDK version mismatch
+    - IL2CPP path errors
+    - Unity streaming assets errors
+    - Resource ID #0x0 errors
+
+MANIFEST VERIFICATION:
+----------------------
+[ ] UnityBridgeActivity is registered with exported=true
+[ ] UnityPlayerActivity is registered with exported=false, process=":Unity"
+[ ] Application tag has extractNativeLibs="true"
+
+STRINGS.XML VERIFICATION:
+-------------------------
+[ ] unityLibrary/src/main/res/values/strings.xml exists
+[ ] Contains: <string name="game_view_content_description">
+[ ] app/src/main/res/values/strings.xml contains same string
+
+RUNTIME VERIFICATION:
+---------------------
+[ ] App launches without crashes
+[ ] Unity simulation starts when navigating to simulation screen
+[ ] Back button in Unity returns to Compose screen (doesn't quit app)
+[ ] App doesn't restart/quit after returning from Unity
+[ ] No Resources$NotFoundException in logcat
+[ ] No IL2CPP compilation errors in build logs
+
+LOG VERIFICATION:
+-----------------
+[ ] Check logcat for Unity lifecycle events
+[ ] Verify UnityBridgeActivity logs appear
+[ ] Verify no crash logs or memory warnings
+[ ] Check for "unity_success=true" in result intents
+
+================================================================================
+9. COMMON ISSUES AND SOLUTIONS
+================================================================================
+
+ISSUE: "Could not get unknown property 'unityStreamingAssets'"
+SOLUTION: Define ext.unityStreamingAssets = "" BEFORE android {} block
+
+ISSUE: "Resources$NotFoundException: Resource ID #0x0"
+SOLUTION: Ensure both strings.xml files contain game_view_content_description
+
+ISSUE: "IL2CPP executable not found"
+SOLUTION: Verify path is src/main/Il2CppOutputProject/IL2CPP/build/deploy/il2cpp(.exe)
+         (NOT netcoreapp3.1/il2cpp.exe)
+
+ISSUE: "NDK version mismatch"
+SOLUTION: Ensure both unityLibrary/build.gradle and app/build.gradle.kts use
+         ndkVersion "29.0.14033849"
+
+ISSUE: "App quits/restarts after returning from Unity"
+SOLUTION: 
+  - Remove all postDelayed() calls in UnityBridgeActivity
+  - Set RESULT_OK immediately before finish()
+  - Include unity_success=true in result intent extras
+  - Verify noHistory="false" in AndroidManifest
+
+ISSUE: "Wireless debugging timeout"
+SOLUTION:
+  - Increase Android Studio timeout settings (900000ms)
+  - Use "Do not launch Activity" and launch manually
+  - Or use install-only approach with adb install
+  - Ensure stable WiFi connection (5GHz preferred)
+
+ISSUE: "Unity native libraries not found"
+SOLUTION:
+  - Verify extractNativeLibs="true" in AndroidManifest
+  - Verify jniLibs.useLegacyPackaging = true in both build.gradle files
+  - Check that libil2cpp.so is in jniLibs/arm64-v8a/
+
+ISSUE: "Back button doesn't work in Unity"
+SOLUTION:
+  - Verify Back_Button_Handler_Improved.cs is in Unity project
+  - Verify UnityBridgeActivity.returnToAndroid() is exposed
+  - Check logcat for Unity->Android communication logs
+  - Verify Unity script is calling AndroidJavaObject methods correctly
+
+================================================================================
+10. QUICK REIMPORT CHECKLIST
+================================================================================
+
+After reimporting Unity library, apply in this order:
+
+1. unityLibrary/build.gradle:
+   [ ] Remove ndkPath (if present)
+   [ ] Set ndkVersion "29.0.14033849"
+   [ ] Remove buildToolsVersion (if present)
+   [ ] Add ext.unityStreamingAssets = "" before android {}
+   [ ] Verify aaptOptions uses project.ext.unityStreamingAssets.tokenize(', ')
+   [ ] Verify packagingOptions has doNotStrip and useLegacyPackaging
+   [ ] Verify IL2CPP task has ANDROID_NDK_ROOT environment variable
+   [ ] Verify sourceSets.main.jni.srcDirs is set
+
+2. app/build.gradle.kts:
+   [ ] Verify ndkVersion = "29.0.14033849"
+   [ ] Verify packaging.jniLibs.useLegacyPackaging = true
+   [ ] Verify implementation(project(":unityLibrary")) is present
+
+3. unityLibrary/src/main/res/values/strings.xml:
+   [ ] Create file if missing
+   [ ] Add game_view_content_description string
+
+4. app/src/main/AndroidManifest.xml:
+   [ ] Verify UnityBridgeActivity registration
+   [ ] Verify UnityPlayerActivity registration with process=":Unity"
+   [ ] Verify extractNativeLibs="true"
+
+5. Build and test:
+   [ ] ./gradlew clean
+   [ ] ./gradlew :app:assembleDebug
+   [ ] Test Unity launch and back button functionality
+
+================================================================================
+11. FILES TO VERIFY EXIST
+================================================================================
+
+REQUIRED FILES:
+---------------
+✓ unityLibrary/build.gradle (with all configurations)
+✓ app/build.gradle.kts (with NDK version and packaging settings)
+✓ unityLibrary/src/main/res/values/strings.xml (with game_view_content_description)
+✓ app/src/main/res/values/strings.xml (with game_view_content_description)
+✓ app/src/main/AndroidManifest.xml (with Unity activities)
+✓ app/src/main/java/com/example/motionlab/ui/screens/simulation/UnityBridgeActivity.kt
+✓ app/src/main/java/com/example/motionlab/ui/screens/simulation/SimpleUnityActivity.kt
+✓ app/src/main/java/com/example/motionlab/ui/screens/simulation/UnityLauncher.kt
+
+UNITY FILES (from Unity export):
+---------------------------------
+✓ unityLibrary/src/main/Il2CppOutputProject/IL2CPP/build/deploy/il2cpp(.exe)
+✓ unityLibrary/src/main/jniStaticLibs/arm64-v8a/*.a
+✓ unityLibrary/src/main/assets/* (Unity assets)
+✓ unityLibrary/libs/classes.jar
+✓ unityLibrary/libs/unity-classes.jar
+
+================================================================================
+END OF CONFIGURATION GUIDE
+================================================================================
+
+Last Updated: 2025-01-07
+Version: 1.0
+
+For issues or questions, refer to this guide and verify each section systematically.

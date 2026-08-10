@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "title": "Acceleration from Rest",
+    "question": "A car accelerates from rest to 20 m/s in 5 seconds. What is its acceleration?",
+    "template": [
+      "a = ( __ − __ ) / __",
+      "a = ( __ ) / __",
+      "a = __ m/s²"
+    ],
+    "answers": [
+      { "blankIndex": 0, "value": "20" },
+      { "blankIndex": 1, "value": "0" },
+      { "blankIndex": 2, "value": "5" },
+      { "blankIndex": 3, "value": "20" },
+      { "blankIndex": 4, "value": "5" },
+      { "blankIndex": 5, "value": "4" }
+    ],
+    "choices": ["20", "20", "0", "5", "5", "4"],
+    "commutative": false
+  },
+  {
+    "id": 2,
+    "title": "Final Velocity",
+    "question": "A car starts at 10 m/s and accelerates at 2 m/s² for 4 seconds. What is its final velocity?",
+    "template": [
+      "v = __ + ( __ × __ )",
+      "v = __ + __",
+      "v = __ m/s"
+    ],
+    "answers": [
+      { "blankIndex": 0, "value": "10" },
+      { "blankIndex": 1, "value": "2" },
+      { "blankIndex": 2, "value": "4" },
+      { "blankIndex": 3, "value": "10" },
+      { "blankIndex": 4, "value": "8" },
+      { "blankIndex": 5, "value": "18" }
+    ],
+    "choices": ["10", "10", "2", "4", "8", "18"],
+    "commutative": false
+  },
+  {
+    "id": 3,
+    "title": "Motorcycle Acceleration",
+    "question": "A motorcycle speeds up from 5 m/s to 25 m/s in 8 seconds. What is its acceleration?",
+    "template": [
+      "a = ( __ − __ ) / __",
+      "a = ( __ ) / __",
+      "a = __ m/s²"
+    ],
+    "answers": [
+      { "blankIndex": 0, "value": "25" },
+      { "blankIndex": 1, "value": "5" },
+      { "blankIndex": 2, "value": "8" },
+      { "blankIndex": 3, "value": "20" },
+      { "blankIndex": 4, "value": "8" },
+      { "blankIndex": 5, "value": "2.5" }
+    ],
+    "choices": ["25", "5", "8", "8", "20", "2.5"],
+    "commutative": false
+  }
+]

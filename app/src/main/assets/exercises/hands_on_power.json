@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "title": "Power from Lifting a Box",
+    "question": "A girl lifts a 200 N box to a height of 1.5 meters in 3 seconds. Find the power.",
+    "template": [
+      "Step 1: W = F×d = __ × __ = __ J",
+      "Step 2: P = W/t = __ / __ = __ W"
+    ],
+    "answers": [
+      { "blankIndex": 0, "value": "200" },
+      { "blankIndex": 1, "value": "1.5" },
+      { "blankIndex": 2, "value": "300" },
+      { "blankIndex": 3, "value": "300" },
+      { "blankIndex": 4, "value": "3" },
+      { "blankIndex": 5, "value": "100" }
+    ],
+    "choices": ["200", "1.5", "300", "300", "3", "100"],
+    "commutative": false
+  },
+  {
+    "id": 2,
+    "title": "Power from Energy Use",
+    "question": "A machine uses 500 J of energy in 10 seconds. What is its power?",
+    "template": [
+      "P = W ÷ t = __ / __ = __ W"
+    ],
+    "answers": [
+      { "blankIndex": 0, "value": "500" },
+      { "blankIndex": 1, "value": "10" },
+      { "blankIndex": 2, "value": "50" }
+    ],
+    "choices": ["500", "10", "50"],
+    "commutative": false
+  },
+  {
+    "id": 3,
+    "title": "Power Used by a Motor",
+    "question": "A motor lifts a 50 N weight to 6 meters in 2 seconds. How much power is used?",
+    "template": [
+      "Step 1: W = F × d = __ × __ = __ J",
+      "Step 2: P = W ÷ t = __ / __ = __ W"
+    ],
+    "answers": [
+      { "blankIndex": 0, "value": "50" },
+      { "blankIndex": 1, "value": "6" },
+      { "blankIndex": 2, "value": "300" },
+      { "blankIndex": 3, "value": "300" },
+      { "blankIndex": 4, "value": "2" },
+      { "blankIndex": 5, "value": "150" }
+    ],
+    "choices": ["50", "6", "300", "300", "2", "150"],
+    "commutative": false
+  }
+]
