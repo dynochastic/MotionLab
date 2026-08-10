@@ -1,11 +1,11 @@
 *.mp4 filter=lfs diff=lfs merge=lfs -text
 *.so filter=lfs diff=lfs merge=lfs -text
 
+# Tell GitHub to treat all C++ files as external/third-party library code (ignores them in stats)
+*.cpp linguist-vendored
+*.h linguist-vendored
+*.hpp linguist-vendored
 
-# Ignore all C++ source and header files from language stats
-*.cpp linguist-detectable=false
-*.h linguist-detectable=false
-*.hpp linguist-detectable=false
-
-# If the C++ files are all inside a specific folder (e.g., "build" or "bin"), ignore the whole folder:
-build/** linguist-detectable=false
+# Hide entire auto-generated directories from stats
+build/** linguist-generated
+unityLibrary/** linguist-generated
